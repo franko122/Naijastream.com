@@ -1,0 +1,1 @@
+// alert( "Hello  welcome to Naijahot.com a plartform were many people around the world stream and download  there  favorite music/video/news/sports etc  click {OK} to Comfirm")

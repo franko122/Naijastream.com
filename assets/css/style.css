@@ -22,6 +22,259 @@
   src: url(../fonts/Noto_Sans_JP/NotoSansJP-Black.otf);
   font-family: "NotosansBlack";
 }
+.idera{
+  width: 40%;
+  height: 203px;
+  background-color: black;
+  margin: auto;
+}
+
+.invest{
+  font-size: 16px;
+}
+.up-img{
+  margin: auto;
+  width: 100%;
+}
+.ding{
+  color: rgb(75, 75, 75);
+  font-size: 12px;
+  text-align: center;
+}
+.soreds{
+  color: rgb(202, 201, 201);
+  margin-top:50px;
+}
+.olamid{
+  color:  rgb(102, 102, 102);
+  margin-left: 10px;
+}
+.hoho{
+  border-radius: 10px;
+  height: inherit;
+  width: 100%;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.softwarea{
+  width: 20%;
+  height:79px;
+}
+.olowo{
+  display: flex;
+  width: 100%;
+  border: rgb(233, 233, 233) 2px solid;
+  background-color: rgb(241, 241, 241);
+  height: 90px;
+  border-radius: 10px;
+  padding: 5px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.chiling{
+  overflow: scroll;
+  padding:5px;
+  border-radius: 10px;
+  background-color: white;
+  height: inherit;
+  width: 50%;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.chiling::-webkit-scrollbar{
+   display: none;
+}
+.crea{
+  width: 100%;
+  display: flex;
+  border-radius: 10px;
+  height:260px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+ .alll-containerdrop{
+      height:54px;
+ }
+ .hapyness:hover{
+   transition: 1s;
+   margin-top: 20px;
+   -webkit-transition: 1s;
+   -moz-transition: 1s;
+   -ms-transition: 1s;
+   -o-transition: 1s;
+}
+.hapyness{
+  width:73.10%;
+  display: none;
+  border-radius: 10px;
+  z-index: 12;
+  margin-left: -314px;
+  height: 300px;
+  position: absolute;
+  background-color: rgb(255, 255, 255);
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.alll-containerdrop:hover .hapyness{
+  display: block;
+}
+.cired{
+  border-radius: 1000px;
+  border: none;
+  background-color: rgb(0, 0, 0);
+  height:25px;
+  margin-top: 15px;
+  width:215%;
+  -webkit-border-radius: 1000px;
+  -moz-border-radius: 1000px;
+  -ms-border-radius: 1000px;
+  -o-border-radius: 1000px;
+  animation-name: durow;
+  cursor: pointer;
+  animation-iteration-count: infinite;
+  animation-duration: 1s;
+}
+@keyframes durow{
+  10%{
+      background-color: red;
+  }
+}
+.sic{
+  font-size: 12px;
+  margin-top: -80px;
+}
+.olugo{
+  width: 5%;
+  height: 30px;
+  color: black;
+}
+.olugo:hover{
+  margin-top: 10px;
+  transition: 0.3s;
+  color: white;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+.dena{
+  margin-left:2px;
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.288);
+}
+.reds{
+  color: white;
+}
+.cjju{
+  font-size: 12px;
+}
+.gucci-dior{
+  width: 100%;
+  height: 40px;
+  margin-top:-18px;
+}
+.my-see{
+  color: rgb(92, 92, 92);
+  text-align: center;
+  animation-name: spound;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+@keyframes spound{
+    10%{
+      margin-top: 18px;
+    }
+}
+.remasound{
+  text-align: center;
+}
+.show-art{
+  display: none;
+}
+.trys{
+  font-size: 20px;
+  color: rgb(114, 114, 114);
+}
+.second-roll{
+    width: 100%;
+    height: 80px;
+    background-color: red;
+}
+.account-div{
+  width: 100%;
+  display: none;
+  height: 160px;
+  background-color: black;
+}
+.main-animate{
+  text-align: center;
+  transform:rotate(91deg) ;
+  -webkit-transform:rotate(91deg) ;
+  animation-name: zoom;
+  -moz-transform:rotate(91deg) ;
+  animation-iteration-count: infinite;
+  animation-duration: 1s;
+  -ms-transform:rotate(91deg) ;
+  color: white;
+  -o-transform:rotate(91deg) ;
+}
+@keyframes  zoom{
+           10%{
+             margin-top: 40px;
+           }
+}
+.animate{
+  width: 100%;
+  margin-top: -20px;
+}
+.ubo{
+  color: red ;
+}
+.sooe{
+  width: 10%;
+  border-radius: 1000px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  border: white solid 2px;
+  padding: 20px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  -webkit-border-radius: 1000px;
+  -moz-border-radius: 1000px;
+  -ms-border-radius: 1000px;
+  -o-border-radius: 1000px;
+}
+.youlookatme{
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  display: flex;
+  height: 70px;
+  background-color: black;
+}
+.downcontainers{
+   width: 100%;
+}
+.hbgg{
+  text-align: center;
+  color: rgb(107, 107, 107);
+}
+.kugg{
+  width: 100%;
+  height: 220px;
+}
 .jesus{
   text-align: center;
   width: 100%;
@@ -65,7 +318,6 @@
   display: flex;
   justify-content: space-between;
   width: 100%;
-  height: 100px;
 }
 .secondtompolo{
      display: none;
@@ -158,7 +410,7 @@
     align-self: center;
     text-align: center;
     width: 100%;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
 .oboy{
   background-color: black;
@@ -187,24 +439,14 @@
 }
 .comodo{
    color: green;
-   font-size: 25px;
+   font-size: 20px;
 }
 .tregi{
     width: 100%;
-    border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
 }
 .prinsting{
   width: 85%;
   margin: auto;
-  border-radius: 5px;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  -ms-border-radius: 5px;
-  -o-border-radius: 5px;
 }
 .care{
   color: #888888;
@@ -217,8 +459,9 @@
 }
 .obrem{
    width: 60%;
+   margin-left: 75px;
    height: 60px;
-   margin: auto;
+   margin-top: 12px;
 }
 .four{
   font-family: "NotosansBlack";
@@ -297,8 +540,9 @@ float: right;
   margin: auto;
 }
 .facoli{
+  font-size: 11px;
   text-align: center;
-  color: black;
+  color: rgb(75, 73, 73);
   font-family: "NotosansBold";
   margin-bottom: 10px;
 }
@@ -318,53 +562,38 @@ float: right;
   -webkit-border-radius: 100px;
   -moz-border-radius: 100px;
   -ms-border-radius: 100px;
+  animation-name: neptune;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
   -o-border-radius: 100px;
 }
-.dropdown-content{
-  height: 300px;
-  width: 70%;
-  transition: 1s;
-  display: none;
-  position: absolute;
-  padding: 10px;
-  background-color: #ffffff;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 6px rgba(255, 255, 255, 0.2);
-  z-index: 1;
-  -webkit-transition: 1s;
-  -moz-transition: 1s;
-  -ms-transition: 1s;
-  border-radius: 10px;
-  -o-transition: 1s;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -ms-border-radius: 10px;
-  -o-border-radius: 10px;
-  margin-left: -274px;
+@keyframes neptune{
+     10%{
+       background-color: red;
 }
-.dropdown-content:hover{
-  margin-top: 20px;
-}
-.dropdown:hover .dropdown-content {
-  display: block;
 }
 .ocure {
   margin-top: -222px;
   float: right;
   overflow: scroll;
   width: 50%;
-  height: 220px;
-  background-color: rgb(255, 255, 255);
-  padding: 5px;
-}
-.ocurem {
-  overflow: scroll;
-  width: 50%;
-  height: 220px;
+  height: 210px;
   background-color: rgb(255, 255, 255);
   padding: 5px;
 }
 
+.ocure::-webkit-scrollbar{
+  display: none;
+}
+.ocurem {
+  overflow: scroll;
+  width: 50%;
+  height: 250px;
+  padding: 5px;
+}
+ .ocurem::-webkit-scrollbar{
+   display: none;
+ }
 .thatgirl{
   width: 100%;
   height: 100px;
@@ -399,6 +628,7 @@ float: right;
   -o-border-radius: 10px;
 }
 .hooded{
+  font-size: 19;
   color: rgb(68, 67, 67);
   margin-left: 10px;
 
@@ -420,7 +650,7 @@ float: right;
   color: #b6b5b5;
 }
 .medicate{
-  margin-top: 10px;
+  margin-top: -5px;
   width: 100%;
   height: 50px;
   display: flex;
@@ -451,18 +681,6 @@ float: right;
   -o-border-radius:  4377px;
 }
 
-.nneka{
-  display: flex;
-  cursor: pointer;
-  border-radius: 100px;
-  width: 5%;
-  height: 30%;
-  background-color: white;
-  -webkit-border-radius: 100px;
-  -moz-border-radius: 100px;
-  -ms-border-radius: 100px;
-  -o-border-radius: 100px;
-}
 .hardwok{
   border-radius: 10022px;
   height: 50px;
@@ -541,6 +759,9 @@ float: right;
    width: 48%;
    height: inherit;
    background-color: rgb(0, 0, 0);
+}
+.lover::-webkit-scrollbar{
+  display: none;
 }
 .may-test{
 text-align: center;
@@ -882,6 +1103,7 @@ color: black;
 .sleep {
   width: 100%;
   height: 400px;
+  z-index:233;
 }
 .web-slier {
   width: 100%;
@@ -919,8 +1141,11 @@ color: black;
 }
 .boss {
   width: 100%;
-  height: 600px;
+  height: 800px;
   overflow: scroll;
+}
+.boss::-webkit-scrollbar{
+  display: none;
 }
 .slow {
   cursor: pointer;
@@ -955,6 +1180,7 @@ color: black;
   border-radius: 10px;
   outline: none;
   width: 80%;
+  border:  black solid 1px  ;
   padding: 15px;
   align-self: center;
   -webkit-border-radius: 10px;
@@ -968,6 +1194,7 @@ color: black;
   background-color: white;
   align-self: center;
   width: 20%;
+  border: rgb(0, 0, 0) solid 1px;
   padding: 10px;
 }
 .fresher-div {
@@ -1011,16 +1238,11 @@ color: black;
 }
 .troll {
   font-size: 39px;
-  color: rgb(255, 0, 0);
+  color: rgba(0, 0, 0, 0.473);
 }
-.troll:hover {
-  transition: 1s;
+.troll:hover { 
   font-size: 39px;
-  color: rgb(6, 82, 126);
-  -webkit-transition: 1s;
-  -moz-transition: 1s;
-  -ms-transition: 1s;
-  -o-transition: 1s;
+  color: rgb(0, 0, 0);
 }
 .send {
   position: fixed;
@@ -1054,7 +1276,7 @@ color: black;
 }
 .compound {
   width: 100%;
-  height: 60px;
+  margin-top:1px;
   text-align: center;
 }
 .taa {
@@ -1195,14 +1417,18 @@ a {
 .body-container {
   background-color: white;
   margin: auto;
-  width: 95%;
+  width: 98%;
   height: 990px;
 }
 .right {
   overflow: scroll;
   width: 75%;
+  padding:5px;
   height: inherit;
   background-color: rgb(255, 255, 255);
+}
+.right::-webkit-scrollbar{
+       display: none;
 }
 .left {
   overflow: scroll;
@@ -1211,6 +1437,9 @@ a {
   height: inherit;
   float: right;
   background-color: rgb(255, 255, 255);
+}
+.left::-webkit-scrollbar{
+  display: none;
 }
 .top {
   margin-top: 1px;
@@ -1280,8 +1509,10 @@ a {
 }
 .idr {
   font-family: NotosansLight;
-  color: white;
-  margin-top: -10px;
+  color: rgb(255, 255, 255);
+  padding: 0%;
+  margin: 0%;
+  margin-top:30px;
   font-size: 15px;
   text-align: center;
 }
@@ -1315,13 +1546,36 @@ a {
   color: red;
 }
 .top-title {
-  background-color: rgba(0, 0, 0, 0.527);
+  background-color: rgba(0, 0, 0, 0.747);
   background-blend-mode: multiply;
-  background-image: url("/assets/img/InShot_20210607_045826183.jpg");
+  background-image: url("/assets/img/images.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   width: 100%;
-  height: 300px;
+  height: 330px;
+  animation-name: music;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+}
+@keyframes music{
+    10%{
+      background-image: url("/assets/img/images\ \(6\).jpeg");
+    }
+    20%{
+      background-image: url("/assets/img/images\ \(5\).jpeg");
+    }
+    30%{
+      background-image: url("/assets/img/images\ \(2\).jpeg");
+    }
+    40%{
+      background-image: url("/assets/img/images\ \(3\).jpeg");
+    } 
+       50%{
+      background-image: url("/assets/img/y.jpeg");
+    } 
+         50%{
+      background-image: url("/assets/img/images\ \(1\).png");
+    }
 }
 .well {
   text-align: center;
@@ -1351,8 +1605,8 @@ a {
 }
 .top-btns {
   cursor: pointer;
-  color: rgb(0, 0, 0);
-  background-color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  background-color: rgb(255, 0, 0);
   border-radius: 6px;
   border: none;
   align-self: center;
@@ -1365,6 +1619,7 @@ a {
 }
 .top-btns:hover {
   width: 35%;
+  color: white;
 }
 
 .setion {
@@ -1417,7 +1672,7 @@ a {
   align-self: center;
   border-radius: 5px;
   display: flex;
-  font-size: 20px;
+  font-size: 13px;
   text-align: center;
   color: white;
   margin: auto;
@@ -1432,17 +1687,13 @@ a {
 .hot {
   width: 100%;
   align-self: center;
+  font-size: 13px;
 }
 .sec-two {
   box-shadow: 1px 5px 5px 5px rgb(201, 201, 201);
-  border-radius: 6px;
+  border-radius: 6px; 
   border: solid rgb(255, 255, 255) 1px;
   width: 28%;
-  background-color: white;
-  -webkit-border-radius: 6px;
-  -moz-border-radius: 6px;
-  -ms-border-radius: 6px;
-  -o-border-radius: 6px;
 }
 .hot-container {
   display: flex;
@@ -1455,6 +1706,7 @@ a {
   height: 450px;
   background-color: rgb(255, 255, 255);
 }
+
 .dell {
   cursor: pointer;
   border-radius: 5px;
@@ -1475,7 +1727,7 @@ a {
   font-family: "Notosansbold";
   border-bottom: solid rgb(0, 0, 0) 2px;
   color: rgb(0, 0, 0);
-  font-size: 16px;
+  font-size: 13px;
 }
 .layed {
   justify-content: space-around;
@@ -1726,6 +1978,7 @@ a {
 }
 .spot-div {
   width: 95%;
+  display: block;
   margin: auto;
 }
 .upload {
@@ -1847,6 +2100,7 @@ a {
   margin: auto;
 }
 .teo {
+  height: inherit;
   width:100%;
 }
 .sound {
@@ -1867,6 +2121,7 @@ a {
 .listen {
   width: 30%;
   margin: auto;
+  background-color: rgba(0, 0, 0, 0.226);
 }
 .ten {
   background-color: rgb(0, 0, 0);
@@ -1952,7 +2207,7 @@ a {
 }
 .doow {
   margin-top: 16px;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   font-size: 17px;
   text-align: center;
 }
@@ -1997,7 +2252,269 @@ a {
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width: 320px) {
+  .medicate{
+    font-size: 12px;
+     margin-top:255px;
+  }
+  .softwarea{
+    width: 50%;
+  }
+  .olamid{ 
+     font-size: 13px;
+  }
+  .soreds{
+     font-size: 12px;
+  }
+  .chiling{
+    width: 100%;
+  }
+  .sics{
+    color: black;
+    font-size: 12px;
+  }
+  .crea{
+    border-radius: none;
+    display: block;
+    -webkit-border-radius: none;
+    -moz-border-radius: none;
+    -ms-border-radius: none;
+    -o-border-radius: none;
+}
+  .hapyness{
+    margin-left: -96px;
+    height: 379px;
+    overflow: scroll;
+    width: 90%;
+}
+  .cired{
+    margin-top:13px;
+    height:20px;
+    width: 160%;
+     background-color: rgb(255, 255, 255);
+  }
+  .dropdown{
+     width: 10%;
+  }
+  .olugo{
+    font-size:0px;
+      color: rgb(0, 0, 0);
+  }
+  .sic{
+    display: none;
+    font-size: 10px;
+  }
+  .animate{
+    margin-top: -40px;
+  }
+  .hiye{
+    font-size: 20px;
+  }
+  .contact-div{
+    margin: auto;
+    width: 95%;
+    height: 280px;
+  }
+  .spot-div{
+    display: none;
+  }
+  .top-title {
+    padding-top: 1px;
+    height: 390px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.712);
+  }
+  .socket{
+    margin-top: -18px;
+  }
+  .low,.skul{
+    color: white;
+  }
+  .bum {
+    color: white;
+    font-size: 12px;
+  }
+  .ginger{
+    width: 28%;
+    height: 35px;
+    background-color: black;
+    border: none;
+    border-radius:5px;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    -ms-border-radius:5px;
+    -o-border-radius:5px;
+}
+  .slim-daddy{
+    display: flex;
+      width: 100%;
+      align-items: center;
+      margin-top: 8px;
+      justify-content: space-around;
+      height: 50px;
+  }
+  .bloafy{
+    width: 100%;
+    font-size: 17px;
+    color: rgb(80, 80, 80);
+    margin: 0%;
+    padding: 0%;
+  }
+  .like-me{
+    width: 100%;
+    height: 190px;
+    margin-top: -20px;
+  }
+  .main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.containerh{
+    width: 300px;
+    display: flex;
+    height: 293px;
+    border: 2px solid rgb(190, 190, 190);
+    overflow: scroll;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+}
+.container::-webkit-scrollbar {
+    display: none;
+}
+.container-content {
+    display: flex;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+}
+
+.items {
+    width: 300px;
+    padding: 10px;
+    height:300px;
+    border: 2px solid rgb(202, 202, 202);
+}
+
+.a {
+    display: flex;
+    gap: 6px;
+}
+
+.link {
+    width: 15px;
+    height: 16px;
+    border-radius: 999999px;
+    background: rgb(0, 0, 0);
+}
+  .refy{
+    font-size: 20px;
+    margin: 0%;
+    padding: 0%;
+    color: rgb(48, 48, 48);
+  }
+  .show-art{
+    width: 100%;
+    height: 340px;
+    display: block;
+    padding: 5px;
+  }
+  .dis-btn{
+    width: 16%;
+    border: white 2px solid;
+    border-radius: 1030px;
+    background-color: black;
+    color: white;
+    font-size: 10px;
+    -webkit-border-radius: 1030px;
+    -moz-border-radius: 1030px;
+    -ms-border-radius: 1030px;
+    -o-border-radius: 1030px;
+}
+  .second-roll{
+    display: flex;
+    justify-content: space-around;
+    background-color: inherit;
+    height: 50px;
+  }
+  .account-div{
+    padding: 10px;
+    height: fit-content;
+    display: block;
+  }
+  .endy{
+    margin-top: 2px;
+  }
+  .hooded{
+    font-size: 14px;
+  }
+  .downcontainers{
+    display: none;
+  }
+  .comodo{
+    font-size: 15px;
+  }
+  .iron{
+    font-size:137px;
+  }
+  .iro{
+    font-size: 17px;
+  }
     .tail{
       background-color: rgb(0, 0, 0);
       margin-top:10px;
@@ -2053,8 +2570,8 @@ color: rgb(150, 150, 150);
     align-items: center;
     height: 12px;
     transform: rotate(53deg);
-    border-bottom: white solid 3px;
-    border-right: solid white 3px;
+    border-bottom:  rgb(255, 255, 255)solid 3px;
+    border-right: solid rgb(255, 255, 255) 3px;
     -webkit-transform: rotate(53deg);
     -moz-transform: rotate(53deg);
     -ms-transform: rotate(53deg);
@@ -2063,10 +2580,11 @@ color: rgb(150, 150, 150);
   .aceseeries{
     display: flex;
     border-radius: 100px;
+    background-color: #0066ff;
     margin-left: -79px;
+    align-items: center;
     width: 11%;
     height: 18px;
-    background-color: rgb(0, 102, 255);
     align-self: center;
 }
   .amino{
@@ -2142,6 +2660,7 @@ margin: auto;
  .obrem{
    width:80%;
    margin-top: 15px;
+   margin: auto;
  }
   .listen{
     width: 90%;
@@ -2153,11 +2672,10 @@ margin: auto;
   } 
   .listend{
     width: 90%;
-    
  }
   .dropdown-content{
-    width: 90%;
-     margin-left:-85px;
+      width: 90%;
+     margin-left:-93px;
      height: 400px;
      overflow: scroll;
   }
@@ -2169,13 +2687,1573 @@ margin: auto;
    margin-top:-199px;
    width: 100%;
 }
-.nneka{
-  height: 29px;
-  width: 10%;
-  margin-right: 2px;
+  .may{
+    display: block;
+    overflow: scroll;
+  }
+  .lover{
+    width: 100%;
+    font-size: 13px;
+  }
+  .fix{
+    margin-left: 10px;
+    float: right;
+  }
+  .done{
+    width:100%;
+    padding: 10px;
+    background-color: black;
+    display:block;
+    align-items: center;
+    justify-content: center;
+  }
+  .alai{
+    width: 150%;
+  }
+  .checkbox-container{
+    top:-6px;   
+  }
+  .plore{
+    width: 50%;
+  }
+  .june{
+    width: 100%;
+     font-size: 10px;
+     margin-right: -15px;
+  }
+  .bro{
+     font-size: 10px;
+     width: 60%;
+  }
+  .very{
+    width: 23%;
+    margin-left:5px;
+  }
+  .coke{
+    font-size: 10px;
+    width: 80%;
+    border-bottom: black solid 2px;
+  }
+  .abeg {
+    width: 70%;
+    height: 70px;
+    align-items: center;
+  }
+  .list {
+    background-color: rgb(230, 224, 224);
+  }
+  .fot-him {
+    margin-top: 800px;
+  }
+  .funny {
+    background-color: white;
+    width: 95%;
+    margin: auto;
+    margin-top: 25px;
+  }
+  .ola-container {
+    display: block;
+    background-color: rgb(230, 224, 224);
+  }
+  .ola-right {
+    background-color: rgb(230, 224, 224);
+    width: 100%;
+    margin-top: 2px;
+  }
+  .ola {
+    display: none;
+  }
+  .bok-test {
+    width: 100%;
+    margin-top: 10px;
+    height: none;
+  }
+  .book-two {
+    font-size: 15px;
+  }
+  .book-form {
+    width: 95%;
+    margin: auto;
+  }
+  .boss {
+    width: 100%;
+    height: 600px;
+    overflow: scroll;
+  }
+  .sleep {
+    width: 100%;
+    height: 300px;
 }
+  .logo {
+    width: 100%;
+    font-size: 15px;
+  }
+  .omega {
+    width: 70%;
+    height: 50px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+  }
+  .lotion {
+    width: 100%;
+  }
+  .slow {
+    font-size: 20px;
+  }
+  .motion {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: auto;
+    height: 70px;
+    background-color: rgb(0, 0, 0);
+  }
+  .fresher-btn {
+    border: solid rgb(189, 189, 189) 2px;
+  }
+  .oly {
+    margin-right: 20px;
+    border: solid rgb(189, 189, 189) 2px;
+  }
+  .fresher {
+    margin: auto;
+    background-color: white;
+    width: 100%;
+    height: 80px;
+    margin-top: 1px;
+  }
+  .john {
+    align-self: center;
+    font-size: 20px;
+  }
+  .cap {
+    justify-content: space-around;
+    display: flex;
+    width: 100%;
+    height: 80px;
+    background-color: rgb(0, 0, 0);
+  }
+  .top-nav {
+    width: 100%;
+  }
+  .home {
+    margin-top: 20px;
+    color: rgb(255, 255, 255);
+    font-size: 10px;
+    display: none;
+  }
+  .nav-right {
+    float: left;
+    width: 100%;
+    margin-top: 1px;
+  }
+  .nav-inp {
+    margin-left: 30px;
+    width: 70%;
+  }
+  .left {
+    display: none;
+  }
+  .right {
+    width: 100%;
+  }
+  .well {
+    font-size:22px;
+    text-align: center;
+  }
+  .body-container {
+    width: 100%;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  .tre {
+    display: none;
+  }
+  .sports {
+    font-size: 10px;
+    color: white;
+    margin-left: 10px;
+  }
+  .download {
+    width: 100%;
+  }
+  .of {
+    color: white;
+    text-align: center;
+    display: block;
+  }
+  .key {
+    width: 45%;
+    margin-left: -15px;
+  }
+  .top-btns {
+    background-color: rgb(228, 35, 35);
+  }
+  .doow {
+    font-size: 15px;
+    color: white;
+  }
+  .secton-one {
+    width: 40%;
+    font-size: 13;
+    height: 40px;
+  }
+  .setion {
+    display: block;
+  }
+  .sec-two {
+    width: 90%;
+    margin: auto;
+  }
+  .teni {
+    text-align: center;
+    font-size: 11px;
+  }
+  .hot {
+    font-size: 13px;
+  }
+  .test {
+    width: 15%;
+  }
+  .talk {
+    position: fixed;
+   }
+  .doload-div {
+    width: 96%;
+    margin: auto;
+    margin-top: 70px;
+  }
+  .run {
+    width: 65%;
+    font-size: 15px;
+  }
+  .rema {
+    width: 100%;
+  }
+  .oya {
+    width:60%;
+  }
+  .sounded{
+
+  font-family: "Notosanslight";
+    color: rgb(255, 0, 0);
+    width: 100%;
+  }
+  .keys {
+    width: 400%;
+    float: left;
+    margin-left: -90px;
+  }
+  .total {
+    color: rgb(107, 107, 107);
+    font-family: "Notosanslight";
+  }
+  .how {
+    width: 30%;
+    border-bottom: solid black 2px;
+  }
+
+  .commet {
+    width: 100%;
+    color: rgb(0, 0, 0);
+  }
+  .sole {
+    width: 50%;
+  }
+  .video-div {
+    width: 100%;
+  }
+  .shift {
+    width: 100%;
+  }
+  .main-picture {
+    width: 100%;
+  }
+  .under {
+    width: 15%;
+  }
+  .unde {
+    width: 15%;
+  }
+  .unders {
+    width: 15%;
+  }
+  .hang-div {
+    width: 25%;
+  }
+  .show {
+    background-color: rgb(65, 60, 60);
+  }
+  .dont {
+    display: none;
+  }
+  .mobile {
+    display: block;
+    width: 100%;
+  }
+  .digit {
+    margin-top: 10px;
+    width: 90%;
+    color: rgb(94, 94, 94);
+  }
+  .ched {
+    color: rgb(90, 89, 89);
+  }
+  .cheds {
+    color: rgb(90, 89, 89);
+  }
+  .send {
+    width: 100%;
+    position: fixed;
+  }
+  .contact-div {
+    padding-top: 200px;
+  }
+  .about-div {
+    width: 90%;
+    margin: auto;
+    float: none;
+  }
+  .ding {
+    font-size: 35px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 375px) {
+
+  .medicate{
+    font-size: 12px;
+     margin-top:255px;
+  }
+  .softwarea{
+    width: 50%;
+  }
+  .olamid{ 
+     font-size: 13px;
+  }
+  .soreds{
+     font-size: 12px;
+  }
+  .chiling{
+    width: 100%;
+  }
+  .sics{
+    color: black;
+    font-size: 12px;
+  }
+  .crea{
+    display: block;
+  }
+  .hapyness{
+    margin-left: -96px;
+    height: 379px;
+    overflow: scroll;
+    width: 90%;
+  }
+  .cired{
+    margin-top:13px;
+    height:20px;
+    width: 160%;
+     background-color: rgb(255, 255, 255);
+  }
+  .dropdown{
+     width: 10%;
+  }
+  .olugo{
+    font-size:0px;
+      color: rgb(0, 0, 0);
+  }
+  .sic{
+    display: none;
+    font-size: 10px;
+  }
+  .animate{
+    margin-top: -40px;
+  }
+  .hiye{
+    font-size: 20px;
+  }
+  .contact-div{
+    margin: auto;
+    width: 95%;
+    height: 280px;
+  }
+  .spot-div{
+    display: none;
+  }
+  .top-title {
+    padding-top: 1px;
+    height: 390px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.712);
+  }
+  .socket{
+    margin-top: -18px;
+  }
+  .low,.skul{
+    color: white;
+  }
+  .bum {
+    color: white;
+    font-size: 12px;
+  }
+  .ginger{
+    width: 28%;
+    height: 35px;
+    background-color: black;
+    border: none;
+    border-radius:5px;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    -ms-border-radius:5px;
+    -o-border-radius:5px;
+}
+  .slim-daddy{
+    display: flex;
+      width: 100%;
+      align-items: center;
+      margin-top: 8px;
+      justify-content: space-around;
+      height: 50px;
+  }
+  .bloafy{
+    width: 100%;
+    font-size: 17px;
+    color: rgb(80, 80, 80);
+    margin: 0%;
+    padding: 0%;
+  }
+  .like-me{
+    width: 100%;
+    height: 190px;
+    margin-top: -20px;
+  }
+  .main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.containerh{
+    width: 300px;
+    display: flex;
+    height: 293px;
+    border: 2px solid rgb(190, 190, 190);
+    overflow: scroll;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+}
+.container::-webkit-scrollbar {
+    display: none;
+}
+.container-content {
+    display: flex;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+}
+
+.items {
+    width: 300px;
+    padding: 10px;
+    height:300px;
+    border: 2px solid rgb(202, 202, 202);
+}
+
+.a {
+    display: flex;
+    gap: 6px;
+}
+
+.link {
+    width: 15px;
+    height: 16px;
+    border-radius: 999999px;
+    background: rgb(0, 0, 0);
+}
+  .refy{
+    font-size: 20px;
+    margin: 0%;
+    padding: 0%;
+    color: rgb(48, 48, 48);
+  }
+  .show-art{
+    width: 100%;
+    height: 340px;
+    display: block;
+    padding: 5px;
+  }
+  .dis-btn{
+    width: 16%;
+    border: white 2px solid;
+    border-radius: 1030px;
+    background-color: black;
+    color: white;
+    font-size: 10px;
+    -webkit-border-radius: 1030px;
+    -moz-border-radius: 1030px;
+    -ms-border-radius: 1030px;
+    -o-border-radius: 1030px;
+}
+  .second-roll{
+    display: flex;
+    justify-content: space-around;
+    background-color: inherit;
+    height: 50px;
+  }
+  .account-div{
+    padding: 10px;
+    height: fit-content;
+    display: block;
+  }
+  .endy{
+    margin-top: 2px;
+  }
+  .hooded{
+    font-size: 14px;
+  }
+  .downcontainers{
+    display: none;
+  }
+  .comodo{
+    font-size: 15px;
+  }
+  .iron{
+    font-size: 17px;
+  }
+  .iro{
+    font-size: 17px;
+  }
+    .tail{
+      background-color: rgb(0, 0, 0);
+      margin-top:10px;
+      margin-left:44px;
+      width:16%;
+      display: flex;
+      align-items: center;
+      height:20px;
+      font-size: 10px;
+    }
+  .bealrightok{
+    width: 80%;
+  }
+  .oboy{
+    background-color: white;
+    border: solid rgb(112, 112, 112) 2px;
+  }
+  .uboy{
+    background-color: white;
+    color: rgb(63, 61, 61);
+  }
+  .likkk{
+    align-self: center;
+color: rgb(150, 150, 150);
+  }
+  .gift{
+     width: 25%;
+     align-self: center;
+  }
+  .termilas{
+    align-self: center;
+    border-radius: 3px;
+    width:70%;
+    float: right;
+    background-color: rgb(0, 102, 255);
+    border: none;
+    color: white;
+    height: 30px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+.pko{
+  margin-left:2px;
+   align-self: center;
+   font-size: 12px;
+   color: rgb(94, 93, 93);
+}
+  .ste{
+    margin: auto;
+    width: 6px;
+    align-items: center;
+    height: 12px;
+    transform: rotate(53deg);
+    border-bottom:  rgb(255, 255, 255)solid 3px;
+    border-right: solid rgb(255, 255, 255) 3px;
+    -webkit-transform: rotate(53deg);
+    -moz-transform: rotate(53deg);
+    -ms-transform: rotate(53deg);
+    -o-transform: rotate(53deg);
+}
+  .aceseeries{
+    display: flex;
+    border-radius: 100px;
+    background-color: #0066ff;
+    margin-left: -79px;
+    align-items: center;
+    width: 11%;
+    height: 18px;
+    align-self: center;
+}
+  .amino{
+  font-family: "NotosansBold";
+    margin-left: 3px;
+    color: red;
+    border-bottom: 1px solid red;
+    font-size: 11px;
+  }
+  .allover{
+    color: rgb(0, 0, 0);
+    margin-left: 2px;
+    width: 100%;
+    display: flex;
+    align-self: center;
+    font-size: 12px;
+  }
+  .notherman{
+    display: flex;
+      width: 60%;
+      height: inherit;
+      padding: 2px;
+  }
+  .notherma{
+    display: flex;
+      width: 40%;
+      height: inherit;
+      padding: 2px;
+  }
+  .abifriend{
+    width:90%;
+    display: flex;
+    height: inherit;
+  }
+  .obasi{
+    margin-left: 2px;
+     width: 100%; height: inherit; border-radius: 100px; -webkit-border-radius: 100px; -moz-border-radius: 100px; -ms-border-radius: 100px; -o-border-radius: 100px;
+}
+  .jehova{
+    border-radius: 100px;
+    width: 12%;
+    align-self: center;
+    height: 38px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+}
+  .secondtompolo{
+    display: flex;
+      width: 100%;
+      height: 45px;
+  }
+      .tompolo{
+        display: none;
+      }
+.tregi{
+  width: 100%;
+  border-radius: 1px;
+  -webkit-border-radius: 1px;
+  -moz-border-radius: 1px;
+  -ms-border-radius: 1px;
+  -o-border-radius: 1px;
+}
+.prinsting{
+width: 100%;
+margin: auto;
+}
+  .madover{
+  font-family: "NotosansBlack";
+    margin-top: 10px;
+  }
+ .obrem{ 
+  margin: auto;
+   margin: auto;
+   margin-top: 15px;
+ }
+  .listen{
+    width: 90%;
+    height: 200px;
+    background-color: rgb(177, 177, 177);
+}
+  .againd{
+    width:100%;
+  } 
+  .listend{
+    width: 90%;
+ }
+  .dropdown-content{
+      width: 90%;
+     margin-left:-93px;
+     height: 400px;
+     overflow: scroll;
+  }
+ .ocurem{
+   width: 100%;
+   margin-bottom:225px;
+ }
+ .ocure{
+   margin-top:-199px;
+   width: 100%;
+}
+  .may{
+    display: block;
+    overflow: scroll;
+  }
+  .lover{
+    width: 100%;
+    font-size: 13px;
+  }
+  .fix{
+    margin-left: 10px;
+    float: right;
+  }
+  .done{
+    width:100%;
+    padding: 10px;
+    background-color: black;
+    display:block;
+    align-items: center;
+    justify-content: center;
+  }
+  .alai{
+    width: 150%;
+  }
+  .checkbox-container{
+    top:-6px;   
+  }
+  .plore{
+    width: 50%;
+  }
+  .june{
+    width: 100%;
+     font-size: 10px;
+     margin-right: -15px;
+  }
+  .bro{
+     font-size: 10px;
+     width: 60%;
+  }
+  .very{
+    width: 23%;
+    margin-left:5px;
+  }
+  .coke{
+    font-size: 10px;
+    width: 80%;
+    border-bottom: black solid 2px;
+  }
+  .abeg {
+    width: 70%;
+    height: 70px;
+    align-items: center;
+  }
+  .list {
+    background-color: rgb(230, 224, 224);
+  }
+  .fot-him {
+    margin-top: 800px;
+  }
+  .funny {
+    background-color: white;
+    width: 95%;
+    margin: auto;
+    margin-top: 25px;
+  }
+  .ola-container {
+    display: block;
+    background-color: rgb(230, 224, 224);
+  }
+  .ola-right {
+    background-color: rgb(230, 224, 224);
+    width: 100%;
+    margin-top: 2px;
+  }
+  .ola {
+    display: none;
+  }
+  .bok-test {
+    width: 100%;
+    margin-top: 10px;
+    height: none;
+  }
+  .book-two {
+    font-size: 15px;
+  }
+  .book-form {
+    width: 95%;
+    margin: auto;
+  }
+  .boss {
+    width: 100%;
+    height: 600px;
+    overflow: scroll;
+  }
+  .sleep {
+    width: 100%;
+    height: 300px;
+}
+  .logo {
+    width: 100%;
+    font-size: 15px;
+  }
+  .omega {
+    width: 70%;
+    height: 50px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+  }
+  .lotion {
+    width: 100%;
+  }
+  .slow {
+    font-size: 20px;
+  }
+  .motion {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: auto;
+    height: 70px;
+    background-color: rgb(0, 0, 0);
+  }
+  .fresher-btn {
+    border: solid rgb(189, 189, 189) 2px;
+  }
+  .oly {
+    margin-right: 20px;
+    border: solid rgb(189, 189, 189) 2px;
+  }
+  .fresher {
+    margin: auto;
+    background-color: white;
+    width: 100%;
+    height: 80px;
+    margin-top: 1px;
+  }
+  .john {
+    align-self: center;
+    font-size: 20px;
+  }
+  .cap {
+    justify-content: space-around;
+    display: flex;
+    width: 100%;
+    height: 80px;
+    background-color: rgb(0, 0, 0);
+  }
+  .top-nav {
+    width: 100%;
+  }
+  .home {
+    margin-top: 20px;
+    color: rgb(255, 255, 255);
+    font-size: 10px;
+    display: none;
+  }
+  .nav-right {
+    float: left;
+    width: 100%;
+    margin-top: 1px;
+  }
+  .nav-inp {
+    margin-left: 30px;
+    width: 70%;
+  }
+  .left {
+    display: none;
+  }
+  .right {
+    width: 100%;
+  }
+  .well {
+    font-size:22px;
+    text-align: center;
+  }
+  .body-container {
+    width: 100%;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  .tre {
+    display: none;
+  }
+  .sports {
+    font-size: 10px;
+    color: white;
+    margin-left: 10px;
+  }
+  .download {
+    width: 100%;
+  }
+  .of {
+    color: white;
+    text-align: center;
+    display: block;
+  }
+  .key {
+    width: 45%;
+    margin-left: -15px;
+  }
+  .top-btns {
+    background-color: rgb(228, 35, 35);
+  }
+  .doow {
+    font-size: 15px;
+    color: white;
+  }
+  .secton-one {
+    width: 40%;
+    font-size: 13;
+    height: 40px;
+  }
+  .setion {
+    display: block;
+  }
+  .sec-two {
+    width: 90%;
+    margin: auto;
+  }
+  .teni {
+    text-align: center;
+    font-size: 11px;
+  }
+  .hot {
+    font-size: 13px;
+  }
+  .test {
+    width: 15%;
+  }
+  .talk {
+    position: fixed;
+   }
+  .doload-div {
+    width: 96%;
+    margin: auto;
+    margin-top: 70px;
+  }
+  .run {
+    width: 65%;
+    font-size: 15px;
+  }
+  .rema {
+    width: 100%;
+  }
+  .oya {
+    width:60%;
+  }
+  .sounded{
+
+  font-family: "Notosanslight";
+    color: rgb(255, 0, 0);
+    width: 100%;
+  }
+  .keys {
+    width: 400%;
+    float: left;
+    margin-left: -90px;
+  }
+  .total {
+    color: rgb(107, 107, 107);
+    font-family: "Notosanslight";
+  }
+  .how {
+    width: 30%;
+    border-bottom: solid black 2px;
+  }
+
+  .commet {
+    width: 100%;
+    color: rgb(0, 0, 0);
+  }
+  .sole {
+    width: 50%;
+  }
+  .video-div {
+    width: 100%;
+  }
+  .shift {
+    width: 100%;
+  }
+  .main-picture {
+    width: 100%;
+  }
+  .under {
+    width: 15%;
+  }
+  .unde {
+    width: 15%;
+  }
+  .unders {
+    width: 15%;
+  }
+  .hang-div {
+    width: 25%;
+  }
+  .show {
+    background-color: rgb(65, 60, 60);
+  }
+  .dont {
+    display: none;
+  }
+  .mobile {
+    display: block;
+    width: 100%;
+  }
+  .digit {
+    margin-top: 10px;
+    width: 90%;
+    color: rgb(94, 94, 94);
+  }
+  .ched {
+    color: rgb(90, 89, 89);
+  }
+  .cheds {
+    color: rgb(90, 89, 89);
+  }
+  .send {
+    width: 100%;
+    position: fixed;
+  }
+  .contact-div {
+    padding-top: 200px;
+  }
+  .about-div {
+    width: 90%;
+    margin: auto;
+    float: none;
+  }
+  .ding {
+    font-size: 35px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:425px) {
+  .medicate{
+    font-size: 12px;
+     margin-top:255px;
+  }
+  .softwarea{
+    width: 50%;
+  }
+  .olamid{ 
+     font-size: 13px;
+  }
+  .soreds{
+     font-size: 12px;
+  }
+  .chiling{
+    width: 100%;
+  }
+  .sics{
+    color: black;
+    font-size: 12px;
+  }
+  .crea{
+    display: block;
+  }
+  .hapyness{
+    margin-left: -96px;
+    height: 379px;
+    overflow: scroll;
+    width: 90%;
+  }
+  .cired{
+    margin-top:13px;
+    height:20px;
+    width: 160%;
+     background-color: rgb(255, 255, 255);
+  }
+  .dropdown{
+     width: 10%;
+  }
+  .olugo{
+    font-size:0px;
+      color: rgb(0, 0, 0);
+  }
+  .sic{
+    display: none;
+    font-size: 10px;
+  }
+  .animate{
+    margin-top: -40px;
+  }
+  .cired{
+    margin-top:13px;
+    height:20px;
+    width: 160%;
+     background-color: rgb(255, 255, 255);
+  }
+  .hiye{
+    font-size: 20px;
+  }
+  .contact-div{
+    margin: auto;
+    width: 95%;
+    height: 280px;
+  }
+  .spot-div{
+    display: none;
+  }
+  .top-title {
+    padding-top: 1px;
+    height: 390px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.712);
+  }
+  .socket{
+    margin-top: -18px;
+  }
+  .low,.skul{
+    color: white;
+  }
+  .bum {
+    color: white;
+    font-size: 12px;
+  }
+  .ginger{
+    width: 28%;
+    height: 35px;
+    background-color: black;
+    border: none;
+    border-radius:5px;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    -ms-border-radius:5px;
+    -o-border-radius:5px;
+}
+  .slim-daddy{
+    display: flex;
+      width: 100%;
+      align-items: center;
+      margin-top: 8px;
+      justify-content: space-around;
+      height: 50px;
+  }
+  .bloafy{
+    width: 100%;
+    font-size: 17px;
+    color: rgb(80, 80, 80);
+    margin: 0%;
+    padding: 0%;
+  }
+  .like-me{
+    width: 100%;
+    height: 190px;
+    margin-top: -20px;
+  }
+  .main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.containerh{
+    width: 300px;
+    display: flex;
+    height: 293px;
+    border: 2px solid rgb(190, 190, 190);
+    overflow: scroll;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+}
+.container::-webkit-scrollbar {
+    display: none;
+}
+.container-content {
+    display: flex;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+}
+
+.items {
+    width: 300px;
+    padding: 10px;
+    height:300px;
+    border: 2px solid rgb(202, 202, 202);
+}
+
+.a {
+    display: flex;
+    gap: 6px;
+}
+
+.link {
+    width: 15px;
+    height: 16px;
+    border-radius: 999999px;
+    background: rgb(0, 0, 0);
+}
+  .refy{
+    font-size: 20px;
+    margin: 0%;
+    padding: 0%;
+    color: rgb(48, 48, 48);
+  }
+  .show-art{
+    width: 100%;
+    height: 340px;
+    display: block;
+    padding: 5px;
+  }
+  .dis-btn{
+    width: 16%;
+    border: white 2px solid;
+    border-radius: 1030px;
+    background-color: black;
+    color: white;
+    font-size: 10px;
+    -webkit-border-radius: 1030px;
+    -moz-border-radius: 1030px;
+    -ms-border-radius: 1030px;
+    -o-border-radius: 1030px;
+}
+  .second-roll{
+    display: flex;
+    justify-content: space-around;
+    background-color: inherit;
+    height: 50px;
+  }
+  .account-div{
+    padding: 10px;
+    height: fit-content;
+    display: block;
+  }
+  .endy{
+    margin-top: 2px;
+  }
+  .hooded{
+    font-size: 14px;
+  }
+  .downcontainers{
+    display: none;
+  }
+  .comodo{
+    font-size: 15px;
+  }
+  .iron{
+    font-size: 17px;
+  }
+  .iro{
+    font-size: 17px;
+  }
+    .tail{
+      background-color: rgb(0, 0, 0);
+      margin-top:10px;
+      margin-left:44px;
+      width:16%;
+      display: flex;
+      align-items: center;
+      height:20px;
+      font-size: 10px;
+    }
+  .bealrightok{
+    width: 80%;
+  }
+  .oboy{
+    background-color: white;
+    border: solid rgb(112, 112, 112) 2px;
+  }
+  .uboy{
+    background-color: white;
+    color: rgb(63, 61, 61);
+  }
+  .likkk{
+    align-self: center;
+color: rgb(150, 150, 150);
+  }
+  .gift{
+     width: 25%;
+     align-self: center;
+  }
+  .termilas{
+    align-self: center;
+    border-radius: 3px;
+    width:70%;
+    float: right;
+    background-color: rgb(0, 102, 255);
+    border: none;
+    color: white;
+    height: 30px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+.pko{
+  margin-left:2px;
+   align-self: center;
+   font-size: 12px;
+   color: rgb(94, 93, 93);
+}
+  .ste{
+    margin: auto;
+    width: 6px;
+    align-items: center;
+    height: 12px;
+    transform: rotate(53deg);
+    border-bottom:  rgb(255, 255, 255)solid 3px;
+    border-right: solid rgb(255, 255, 255) 3px;
+    -webkit-transform: rotate(53deg);
+    -moz-transform: rotate(53deg);
+    -ms-transform: rotate(53deg);
+    -o-transform: rotate(53deg);
+}
+  .aceseeries{
+    display: flex;
+    border-radius: 100px;
+    background-color: #0066ff;
+    margin-left: -79px;
+    align-items: center;
+    width: 11%;
+    height: 18px;
+    align-self: center;
+}
+  .amino{
+  font-family: "NotosansBold";
+    margin-left: 3px;
+    color: red;
+    border-bottom: 1px solid red;
+    font-size: 11px;
+  }
+  .allover{
+    color: rgb(0, 0, 0);
+    margin-left: 2px;
+    width: 100%;
+    display: flex;
+    align-self: center;
+    font-size: 12px;
+  }
+  .notherman{
+    display: flex;
+      width: 60%;
+      height: inherit;
+      padding: 2px;
+  }
+  .notherma{
+    display: flex;
+      width: 40%;
+      height: inherit;
+      padding: 2px;
+  }
+  .abifriend{
+    width:90%;
+    display: flex;
+    height: inherit;
+  }
+  .obasi{
+    margin-left: 2px;
+     width: 100%; height: inherit; border-radius: 100px; -webkit-border-radius: 100px; -moz-border-radius: 100px; -ms-border-radius: 100px; -o-border-radius: 100px;
+}
+  .jehova{
+    border-radius: 100px;
+    width: 12%;
+    align-self: center;
+    height: 38px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+}
+  .secondtompolo{
+    display: flex;
+      width: 100%;
+      height: 45px;
+  }
+      .tompolo{
+        display: none;
+      }
+.tregi{
+  width: 100%;
+  border-radius: 1px;
+  -webkit-border-radius: 1px;
+  -moz-border-radius: 1px;
+  -ms-border-radius: 1px;
+  -o-border-radius: 1px;
+}
+.prinsting{
+width: 100%;
+margin: auto;
+}
+  .madover{
+  font-family: "NotosansBlack";
+    margin-top: 10px;
+  }
+ .obrem{
+   width:80%;
+   margin: auto;
+   margin-top: 15px;
+ }
+  .listen{
+    width: 90%;
+    height: 200px;
+    background-color: rgb(177, 177, 177);
+}
+  .againd{
+    width:100%;
+  } 
+  .listend{
+    width: 90%;
+ }
+  .dropdown-content{
+      width: 90%;
+     margin-left:-93px;
+     height: 400px;
+     overflow: scroll;
+  }
+ .ocurem{
+   width: 100%;
+   margin-bottom:225px;
+ }
+ .ocure{
+   margin-top:-199px;
+   width: 100%;
+}
+
 .dropbtn{
-  width: 90%;
+  margin: auto;
+  width:290%;
+  margin-left: -5px;
 }
   .may{
     display: block;
@@ -2355,12 +4433,6 @@ margin: auto;
   .body-container {
     width: 100%;
   }
-  .top-title {
-    padding-top: 1px;
-    height: 390px;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.712);
-  }
   * {
     box-sizing: border-box;
   }
@@ -2393,6 +4465,7 @@ margin: auto;
   }
   .secton-one {
     width: 40%;
+    font-size: 13;
     height: 40px;
   }
   .setion {
@@ -2404,10 +4477,10 @@ margin: auto;
   }
   .teni {
     text-align: center;
-    font-size: 14px;
+    font-size: 11px;
   }
   .hot {
-    font-size: 15px;
+    font-size: 13px;
   }
   .test {
     width: 15%;
@@ -2459,8 +4532,7 @@ margin: auto;
   }
   .video-div {
     margin: auto;
-    width: 10%;
-    background: white;
+    width: 100%;
   }
   .shift {
     width: 100%;
@@ -2544,494 +4616,209 @@ margin: auto;
 
 
 
-@media (max-width: 375px) {
-  .tail{
-    background-color: rgb(0, 0, 0);
-    margin-top:10px;
-    margin-left:44px;
-    width:16%;
-    display: flex;
-    align-items: center;
-    height:20px;
-    font-size: 10px;
-  }
-  .listend{
-     width: 80%;
-  }
-  .likkk{
-    align-self: center;
-color: rgb(150, 150, 150);
-  }
-  .gift{
-     width: 25%;
-     align-self: center;
-  }
-  .termilas{
-    align-self: center;
-    border-radius: 3px;
-    width:70%;
-    float: right;
-    background-color: rgb(0, 102, 255);
-    border: none;
-    color: white;
-    height: 30px;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    -ms-border-radius: 3px;
-    -o-border-radius: 3px;
-}
-.pko{
-  margin-left:2px;
-   align-self: center;
-   font-size: 12px;
-   color: rgb(94, 93, 93);
-}
-  .ste{
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (width: 768px) {
+  .tableg{
+    width:50%;
     margin: auto;
-    width: 6px;
-    align-items: center;
-    height: 12px;
-    transform: rotate(53deg);
-    border-bottom: white solid 3px;
-    border-right: solid white 3px;
-    -webkit-transform: rotate(53deg);
-    -moz-transform: rotate(53deg);
-    -ms-transform: rotate(53deg);
-    -o-transform: rotate(53deg);
-}
-  .aceseeries{
-    display: flex;
-    border-radius: 100px;
-    margin-left: -79px;
-    width: 11%;
-    height: 18px;
-    background-color: rgb(0, 102, 255);
-    align-self: center;
-}
-  .amino{
-  font-family: "NotosansBold";
-    margin-left: 3px;
-    color: red;
-    border-bottom: 1px solid red;
-    font-size: 11px;
   }
-  .allover{
-    color: rgb(0, 0, 0);
-    margin-left: 2px;
-    width: 100%;
-    display: flex;
-    align-self: center;
-    font-size: 12px;
+  .top-nav{
+    background-color: inherit;
   }
-  .notherman{
-    display: flex;
-      width: 60%;
-      height: inherit;
-      padding: 2px;
+  .dropdown-content{
+        margin-left:-265px;
+        width:90%;
   }
-  .notherma{
-    display: flex;
-      width: 40%;
-      height: inherit;
-      padding: 2px;
+  .downcontainers{
+     display: none;
   }
-  .abifriend{
-    width:90%;
-    display: flex;
-    height: inherit;
-  }
-  .obasi{
-    margin-left: 2px;
-     width: 100%; height: inherit; border-radius: 100px; -webkit-border-radius: 100px; -moz-border-radius: 100px; -ms-border-radius: 100px; -o-border-radius: 100px;
-}
-  .jehova{
-    border-radius: 100px;
-    width: 12%;
-    align-self: center;
-    height: 38px;
-    -webkit-border-radius: 100px;
-    -moz-border-radius: 100px;
-    -ms-border-radius: 100px;
-    -o-border-radius: 100px;
-}
-  .secondtompolo{
-    display: flex;
-      width: 100%;
-      height: 45px;
-  }
-      .tompolo{
-        display: none;
-      }
-  .alai{
-    width: 100%;
-  }
-.tregi{
-  width: 100%;
-  border-radius: 1px;
-  -webkit-border-radius: 1px;
-  -moz-border-radius: 1px;
-  -ms-border-radius: 1px;
-  -o-border-radius: 1px;
-}
-.obrem{
-  width:80%;
-  margin-top: 15px;
-}
-.prinsting{
-   width: 100%;
-   margin: auto;
-}
-.listen{
-  width: 90%;
-  height: 200px;
-  background-color: rgb(177, 177, 177);
-}
-   .may{
-    display: block;
-    overflow: scroll;
-  }
-  .lover{
-    width: 100%;
-    font-size: 13px;
-  }
-  .fix{
-    margin-left: 10px;
-    float: right;
-  }
-  .done{
-    width:100%;
-    padding: 10px;
-    background-color: black;
-    display:block;
-    align-items: center;
-    justify-content: center;
-  }
-  .june{
-    width: 100%;
-     font-size: 10px;
-     margin-right: -15px;
-  }
-  .bro{
-     font-size: 10px;
+  .dropbtn{
+    height:15px;
+    margin-left: 5px;
+    margin-top: -10px;
      width: 60%;
   }
-  .very{
-    width: 23%;
-    margin-left:5px;
-  }
-  .coke{
-    font-size: 10px;
-    width: 80%;
-    border-bottom: black solid 2px;
-  }
-  .abeg {
-    width: 70%;
-    height: 70px;
-    align-items: center;
-  }
-  .list {
-    background-color: rgb(230, 224, 224);
-  }
-  .fot-him {
-    margin-top: 800px;
-  }
-  .funny {
-    background-color: white;
-    width: 95%;
-    margin: auto;
-    margin-top: 25px;
-  }
-  .ola-container {
-    display: block;
-    background-color: rgb(230, 224, 224);
-  }
-  .ola-right {
-    background-color: rgb(230, 224, 224);
-    width: 100%;
-    margin-top: 2px;
-  }
-  .ola {
-    display: none;
-  }
-  .bok-test {
-    width: 100%;
-    margin-top: 10px;
-    height: none;
-  }
-  .book-form {
-    width: 95%;
-    margin: auto;
-  }
-  .logo {
-    font-size: 15px;
-  }
-  .omega {
-    width: 70%;
-    height: 50px;
-    margin: auto;
-    display: flex;
-    justify-content: space-around;
-  }
-  .lotion {
-    width: 100%;
-  }
-  .slow {
-    font-size: 20px;
-  }
-  .motion {
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-    margin: auto;
-    height: 70px;
-    background-color: rgb(0, 0, 0);
-  }
-  .fresher-btn {
-    border: solid rgb(189, 189, 189) 2px;
-  }
-  .oly {
-    margin-right: 20px;
-    border: solid rgb(189, 189, 189) 2px;
-  }
-  .fresher {
-    margin: auto;
-    background-color: white;
-    width: 100%;
-    height: 80px;
-    margin-top: 1px;
-  }
 
-  .top-nav {
-    width: 100%;
-  }
-  .nav-left {
-    padding: 10px;
-    width: 100%;
-  }
-  .home {
-    margin-top: 20px;
-    color: rgb(255, 255, 255);
-    font-size: 12px;
-  }
-  .nav-right {
-    float: left;
-    width: 100%;
-    margin-top: 1px;
-  }
-  .nav-inp {
-    margin-left: 30px;
-    width: 70%;
-  }
-  .left {
-    display: none;
-  }
-  .right {
-    width: 100%;
-  }
-  .well {
-    font-size: 22px;
-    text-align: center;
-  }
-  .body-container {
-    width: 100%;
-  }
-  .top-title {
-    padding-top: 1px;
-    height: 390px;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.712);
-  }
-  * {
-    box-sizing: border-box;
-  }
-  .tre {
-    display: none;
-  }
-  .sports {
-    font-size: 10px;
-    color: white;
-    margin-left: 10px;
-  }
-  .download {
-    width: 100%;
-  }
-  .of {
-    color: white;
-    text-align: center;
-    display: block;
-  }
-  .key {
-    width: 45%;
-    margin-left: -15px;
-  }
-  .top-btns {
-    background-color: rgb(228, 35, 35);
-  }
-  .doow {
-    font-size: 15px;
-    color: white;
-  }
-  .secton-one {
-    width: 40%;
-    height: 40px;
-  }
-  .setion {
-    display: block;
-  }
-  .sec-two {
-    width: 90%;
+  .nkich{
+    border-radius: 100%;
+    width: 200%;
+    height:0px;
+    background-color: rgb(255, 255, 255);
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+}
+  .tablet{
     margin: auto;
-  }
-  .teni {
-    text-align: center;
-    font-size: 14px;
-  }
-  .hot {
-    font-size: 15px;
-  }
-  .test {
-    width: 15%;
-  }
-  .talk {
-    position: fixed;
-  }
-  .doload-div {
-    width: 96%;
-    margin: auto;
-    margin-top: 70px;
-  }
-  .run {
-    width: 65%;
-    font-size: 15px;
-  }
-  .rema {
-    width: 100%;
-  }
-  .oya {
-    width: 60%;
-  }
-  .sound {
-    margin-top: -400px;
-    width: 100%;
-  }
-  .keys {
-    float: left;
-    margin-left: -90px;
-  }
-  .total {
-    color: rgb(107, 107, 107);
-    font-family: "Notosanslight";
-  }
-  .how {
-    width: 30%;
-    border-bottom: solid black 2px;
-  }
-  .commet {
-    width: 100%;
-    color: rgb(0, 0, 0);
-  }
-  .sole {
     width: 50%;
   }
-  .shift {
-    width: 100%;
+  .dis-btn{
+    width: 16%;
+    border: white 2px solid;
+    border-radius: 1030px;
+    background-color: black;
+    color: white;
+    font-size: 10px;
+    -webkit-border-radius: 1030px;
+    -moz-border-radius: 1030px;
+    -ms-border-radius: 1030px;
+    -o-border-radius: 1030px;
   }
-  .main-picture {
-    width: 70%;
+  .second-roll{
+    display: flex;
+    justify-content: space-around;
+    background-color: inherit;
+    height: 50px;
   }
-  .under {
-    width: 15%;
-  }
-  .unde {
-    width: 15%;
-  }
-  .unders {
-    width: 15%;
-  }
-  .hang-div {
-    width: 25%;
-  }
-  .show {
-    background-color: rgb(65, 60, 60);
-  }
-  .dont {
-    display: none;
-  }
-  .mobile {
+  .account-div{
+    height: fit-content;
     display: block;
+    padding: 10px;
+  }
+  .low,.skul{
+    color: white;
+  }
+  .bum {
+    color: white;
+    font-size: 12px;
+  }
+  .ginger{
+    width: 28%;
+    height: 35px;
+    background-color: black;
+    border: none;
+    border-radius:5px;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    -ms-border-radius:5px;
+    -o-border-radius:5px;
+}
+  .slim-daddy{
+    display: flex;
+      width: 100%;
+      align-items: center;
+      margin-top: 8px;
+      justify-content: space-around;
+      height: 50px;
+  }
+  .bloafy{
     width: 100%;
+    font-size: 17px;
+    color: rgb(80, 80, 80);
+    margin: 0%;
+    padding: 0%;
   }
-  .digit {
-    margin-top: 10px;
-    width: 90%;
-    color: rgb(94, 94, 94);
-  }
-  .ched {
-    color: rgb(90, 89, 89);
-  }
-  .cheds {
-    color: rgb(90, 89, 89);
-  }
-  .send {
+  .like-me{
     width: 100%;
-    position: fixed;
+    height: 190px;
+    margin-top: -20px;
   }
-  .contact-div {
-    padding-top: 200px;
-  }
-  .about-div {
-    width: 90%;
-    margin: auto;
-    float: none;
-  }
-  .ding {
-    font-size: 35px;
-  }
-
+  .main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
+.containerh{
+    width: 300px;
+    display: flex;
+    height: 293px;
+    border: 2px solid rgb(190, 190, 190);
+    overflow: scroll;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+}
+.container::-webkit-scrollbar {
+    display: none;
+}
+.container-content {
+    display: flex;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+}
 
+.items {
+    width: 300px;
+    padding: 10px;
+    height:300px;
+    border: 2px solid rgb(202, 202, 202);
+}
 
+.a {
+    display: flex;
+    gap: 6px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media (max-width: 425px) {
+.link {
+    width: 15px;
+    height: 16px;
+    border-radius: 999999px;
+    background: rgb(0, 0, 0);
+}
+  .refy{
+    font-size: 20px;
+    margin: 0%;
+    padding: 0%;
+    color: rgb(48, 48, 48);
+  }
+  .show-art{
+    display: block;
+  }
+  .comodo{
+    font-size: 15px;
+  }
+  .iron{
+    font-size: 17px;
+  }
+  .iro{
+    font-size: 17px;
+  }
   .tail{
     background-color: rgb(0, 0, 0);
     margin-top:10px;
@@ -3151,18 +4938,13 @@ color: rgb(150, 150, 150);
       }
   .prinsting{
     width: 100%;
-    border-radius:none ;
-    border-radius: none;
-    -webkit-border-radius:none ;
-    -moz-border-radius:none ;
-    -ms-border-radius:none ;
-    -o-border-radius:none ;
 }
   .alai{
      width: 100%;
   }
   .obrem{
     width:80%;
+    margin: auto;
     margin-top: 15px;
   }
   .listen{
@@ -3217,8 +4999,9 @@ color: rgb(150, 150, 150);
     align-items: center;
   }
   .book {
-    margin-left: 210px;
-    width: 30%;
+    margin-left:260px;
+    width:15%;
+    background-color: rgb(0, 0, 0);
     margin-top: 260px;
     font-size: 10px;
   }
@@ -3337,6 +5120,7 @@ color: rgb(150, 150, 150);
   }
   .secton-one {
     width: 40%;
+    font-size: 13px;
     height: 40px;
   }
   .setion {
@@ -3348,7 +5132,7 @@ color: rgb(150, 150, 150);
   }
   .teni {
     text-align: center;
-    font-size: 14px;
+    font-size: 13px;
   }
   .hot {
     font-size: 15px;
@@ -3376,451 +5160,6 @@ color: rgb(150, 150, 150);
   }
   .sound {
     margin-top: -360PX;
-    width: 100%;
-  }
-  .keys {
-    float: left;
-    margin-left: -90px;
-  }
-  .total {
-    color: rgb(107, 107, 107);
-    font-family: "Notosanslight";
-  }
-  .how {
-    width: 30%;
-    border-bottom: solid black 2px;
-  }
-
-  .commet {
-    width: 100%;
-    color: rgb(0, 0, 0);
-  }
-  .sole {
-    width: 50%;
-  }
-  .video-div {
-    width: 100%;
-    background: white;
-  }
-  .shift {
-    width: 100%;
-  }
-  .main-picture {
-    width: 70%;
-  }
-  .under {
-    width: 15%;
-  }
-  .unde {
-    width: 15%;
-  }
-  .unders {
-    width: 15%;
-  }
-  .hang-div {
-    width: 25%;
-  }
-  .show {
-    background-color: rgb(65, 60, 60);
-  }
-  .dont {
-    display: none;
-  }
-  .mobile {
-    display: block;
-    width: 100%;
-  }
-  .digit {
-    margin-top: 10px;
-    width: 90%;
-    color: rgb(94, 94, 94);
-  }
-  .ched {
-    color: rgb(90, 89, 89);
-  }
-  .cheds {
-    color: rgb(90, 89, 89);
-  }
-  .send {
-    width: 100%;
-    position: fixed;
-  }
-  .contact-div {
-    padding-top: 200px;
-  }
-  .about-div {
-    width: 90%;
-    margin: auto;
-    float: none;
-  }
-  .ding {
-    font-size: 35px;
-  }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media (max-width: 768px) {
-  .tail{
-    background-color: rgb(0, 0, 0);
-    margin-top:10px;
-    margin-left:44px;
-    width:16%;
-    display: flex;
-    align-items: center;
-    height:20px;
-    font-size: 10px;
-  }
-  .likkk{
-    align-self: center;
-color: rgb(150, 150, 150);
-  }
-  .gift{
-     width: 25%;
-     align-self: center;
-  }
-  .termilas{
-    align-self: center;
-    border-radius: 3px;
-    width:70%;
-    float: right;
-    background-color: rgb(0, 102, 255);
-    border: none;
-    color: white;
-    height: 30px;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    -ms-border-radius: 3px;
-    -o-border-radius: 3px;
-}
-.pko{
-  margin-left:2px;
-   align-self: center;
-   font-size: 12px;
-   color: rgb(94, 93, 93);
-}
-  .ste{
-    margin: auto;
-    width: 6px;
-    align-items: center;
-    height: 12px;
-    transform: rotate(53deg);
-    border-bottom: white solid 3px;
-    border-right: solid white 3px;
-    -webkit-transform: rotate(53deg);
-    -moz-transform: rotate(53deg);
-    -ms-transform: rotate(53deg);
-    -o-transform: rotate(53deg);
-}
-  .aceseeries{
-    display: flex;
-    border-radius: 100px;
-    margin-left: -79px;
-    width: 11%;
-    height: 18px;
-    background-color: rgb(0, 102, 255);
-    align-self: center;
-}
-  .amino{
-  font-family: "NotosansBold";
-    margin-left: 3px;
-    color: red;
-    border-bottom: 1px solid red;
-    font-size: 11px;
-  }
-  .allover{
-    color: rgb(0, 0, 0);
-    margin-left: 2px;
-    width: 100%;
-    display: flex;
-    align-self: center;
-    font-size: 12px;
-  }
-  .notherman{
-    display: flex;
-      width: 60%;
-      height: inherit;
-      padding: 2px;
-  }
-  .notherma{
-    display: flex;
-      width: 40%;
-      height: inherit;
-      padding: 2px;
-  }
-  .abifriend{
-    width:90%;
-    display: flex;
-    height: inherit;
-  }
-  .obasi{
-    margin-left: 2px;
-     width: 100%; height: inherit; border-radius: 100px; -webkit-border-radius: 100px; -moz-border-radius: 100px; -ms-border-radius: 100px; -o-border-radius: 100px;
-}
-  .jehova{
-    border-radius: 100px;
-    width: 12%;
-    align-self: center;
-    height: 38px;
-    -webkit-border-radius: 100px;
-    -moz-border-radius: 100px;
-    -ms-border-radius: 100px;
-    -o-border-radius: 100px;
-}
-  .secondtompolo{
-    display: flex;
-      width: 100%;
-      height: 45px;
-  }
-      .tompolo{
-        display: none;
-      }
-  .prinsting{
-    width: 100%;
-    border-radius:none ;
-    border-radius: none;
-    -webkit-border-radius:none ;
-    -moz-border-radius:none ;
-    -ms-border-radius:none ;
-    -o-border-radius:none ;
-}
-  .obrem{
-    width:80%;
-    margin-top: 15px;
-  }
-  .listen{
-    width: 90%;
-    height: 200px;
-    background-color: rgb(177, 177, 177);
-}
-  .dropdown-content{
-    width: 90%;
-     margin-left:-85px;
-     height: 400px;
-     overflow: scroll;
-  }
- .ocurem{
-   width: 100%;
-   margin-bottom:225px;
- }
- .ocure{
-   margin-top:-199px;
-   width: 100%;
-}
-.nneka{
-  height: 29px;
-  width: 10%;
-  margin-right: 2px;
-}
-.dropbtn{
-  width: 90%;
-}
-  .may{
-    display: block;
-    overflow: scroll;
-  }
-  .lover{
-    width: 100%;
-    font-size: 13px;
-  }
-  .fix{
-    margin-left: 10px;
-    float: right;
-  }
-  .done{
-    width:100%;
-    padding: 10px;
-    background-color: black;
-    display:block;
-    align-items: center;
-    justify-content: center;
-  }
-  .checkbox-container{
-    top: -6px;   
-  }
-  .book-form {
-    width: 95%;
-    margin: auto;
-  }
-  .logo {
-    font-size: 15px;
-  }
-  .omega {
-    width: 70%;
-    height: 50px;
-    margin: auto;
-    display: flex;
-    justify-content: space-around;
-  }
-
-  .lotion {
-    width: 100%;
-  }
-  .slow {
-    font-size: 20px;
-  }
-  .motion {
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-    margin: auto;
-    height: 70px;
-    background-color: rgb(0, 0, 0);
-  }
-  .fresher-btn {
-    border: solid rgb(189, 189, 189) 2px;
-  }
-  .oly {
-    margin-right: 20px;
-    border: solid rgb(189, 189, 189) 2px;
-  }
-  .fresher {
-    margin: auto;
-    background-color: white;
-    width: 100%;
-    height: 80px;
-    margin-top: 1px;
-  }
-  .top-nav {
-    width: 100%;
-  }
-  .nav-left {
-    padding: 10px;
-    width: 100%;
-  }
-  .home {
-    margin-top: 20px;
-    color: rgb(255, 255, 255);
-    font-size: 12px;
-  }
-  .nav-right {
-    float: left;
-    width: 100%;
-    margin-top: 1px;
-  }
-  .nav-inp {
-    margin-left: 30px;
-    width: 70%;
-  }
-  .left {
-    display: none;
-  }
-  .right {
-    width: 100%;
-  }
-  .well {
-    font-size: 22px;
-    text-align: center;
-  }
-  .body-container {
-    width: 100%;
-  }
-  .top-title {
-    padding-top: 1px;
-    height: 390px;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.712);
-  }
-  * {
-    box-sizing: border-box;
-  }
-  .tre {
-    display: none;
-  }
-  .sports {
-    font-size: 10px;
-    color: white;
-    margin-left: 10px;
-  }
-  .download {
-    width: 100%;
-  }
-  .of {
-    color: white;
-    text-align: center;
-    display: block;
-  }
-  .key {
-    width: 45%;
-    margin-left: -15px;
-  }
-  .top-btns {
-    background-color: rgb(228, 35, 35);
-  }
-  .doow {
-    font-size: 15px;
-    color: white;
-  }
-  .secton-one {
-    width: 40%;
-    height: 40px;
-  }
-  .setion {
-    display: block;
-  }
-  .sec-two {
-    width: 90%;
-    margin: auto;
-  }
-  .teni {
-    text-align: center;
-    font-size: 14px;
-  }
-  .hot {
-    font-size: 15px;
-  }
-  .test {
-    width: 15%;
-  }
-  .talk {
-    position: fixed;
-  }
-  .doload-div {
-    width: 96%;
-    margin: auto;
-    margin-top: 70px;
-  }
-  .run {
-    width: 65%;
-    font-size: 15px;
-  }
-  .rema {
-    width: 100%;
-  }
-  .oya {
-    width: 60%;
-  }
-  .sound {
     width: 100%;
   }
   .keys {
