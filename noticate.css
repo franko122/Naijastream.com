@@ -1,0 +1,138 @@
+body {
+    padding: 0%;
+    margin: 0%;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    background-color: rgb(230, 230, 230);
+  }
+  .container {
+    overflow: scroll;
+    padding: 10px;
+    width: 30%;
+    height: 700px;
+    background-color: rgb(238, 238, 238);
+    margin: auto;
+    margin-top: 35px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    box-shadow: 0px 4px 10px 10px rgb(218, 217, 217);
+  }
+  .text-fil {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 16px;
+    width: 100%;
+    align-self: center;
+  }
+  .one {
+    border: solid rgb(216, 215, 215) 2px;
+    width: 100%;
+    height: 70px;
+    background-color: rgb(233, 232, 232);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+  }
+  .one:hover {
+    box-shadow: 0px 4px 10px 5px rgb(218, 217, 217);
+  }
+  .image {
+    width: 19%;
+    height: inherit;
+    display: flex;
+    margin-left: 5px;
+  }
+  .holy {
+    margin: auto;
+    align-self: center;
+    width: 90%;
+    height: 60px;
+    background-color: rgb(241, 241, 241);
+    border-radius: 102px;
+    -webkit-border-radius: 102px;
+    -moz-border-radius: 102px;
+    -ms-border-radius: 102px;
+    -o-border-radius: 102px;
+    cursor: pointer;
+  }
+  .text-div {
+    margin-top: -63px;
+    width: 50%;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    margin-left: 80px;
+    color: rgb(139, 138, 138);
+    cursor: pointer;
+  }
+  .text-divs {
+    cursor: pointer;
+    margin-top: -63px;
+    width: 50%;
+    height: 23px;
+    color: rgb(139, 138, 138);
+    margin-left: 80px;
+  }
+  .right {
+    margin-right: 10px;
+    margin-top: -63px;
+    width: 25%;
+    height: 60px;
+    color: rgb(139, 138, 138);
+    float: right;
+  }
+  .date-div {
+    margin-top: 8px;
+    width: 100%;
+    height: 25px;
+  }
+  .down {
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    width: 100%;
+    height: 30px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    color: rgb(139, 138, 138);
+    font-size: 16px;
+  }
+  a{
+      text-decoration: none;
+  }
+  .hang {
+    margin-left: -9px;
+    margin-top: -9px;
+    position: fixed;
+    width:31.4%;
+    display: flex;
+    background-color: rgb(7, 105, 185);
+    overflow: hidden;
+  }
+  .notify-div {
+    width: 5%;
+    border-radius: 10333px;
+    height: 70px;
+    background-color: rgb(13, 74, 143);
+    position: fixed;
+    -webkit-border-radius: 10333px;
+    -moz-border-radius: 10333px;
+    -ms-border-radius: 10333px;
+    -o-border-radius: 10333px;
+    margin-left: 722px;
+    margin-top: 600px;
+    cursor: pointer;
+  }
+  .go{
+      color: white;
+      margin-top: 20px;
+      margin-left: 10px;
+  }

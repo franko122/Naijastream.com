@@ -1,0 +1,119 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:600);
+@font-face {
+  src: url(../fonts/Noto_Sans_JP/NotoSansJP-Regular.otf);
+  font-family: "NotosansRegular";
+}
+@font-face {
+  src: url(../fonts/Noto_Sans_JP/NotoSansJP-Bold.otf);
+  font-family: "Notosansbold";
+}
+@font-face {
+  src: url(../fonts/Noto_Sans_JP/NotoSansJP-Medium.otf);
+  font-family: "NotosansMedium";
+}
+@font-face {
+  src: url(../fonts/Noto_Sans_JP/NotoSansJP-Thin.otf);
+  font-family: "NotosansThin";
+}
+@font-face {
+  src: url(../fonts/Noto_Sans_JP/NotoSansJP-Light.otf);
+  font-family: "NotosansLight";
+}
+@font-face {
+  src: url(../fonts/Noto_Sans_JP/NotoSansJP-Black.otf);
+  font-family: "NotosansBlack";
+}
+body { 
+  font-family: 'Open Sans', 'sans-serif';
+  color: #cecece;
+  overflow: hidden;
+} 
+.item-1, 
+.item-2, 
+.item-3 {
+	position: absolute;
+  display: block;
+	top: 2em;
+  width: 10%;
+  font-size: 2em;
+	animation-duration: 20s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+  margin-left: 100px;
+}
+
+.item-1{
+	animation-name: anim-1;
+  margin-left:604px;
+}
+
+.item-2{
+	animation-name: anim-2;
+  margin-left:604px;
+}
+.item-3{
+	animation-name: anim-3;
+  margin-left:604px;
+}
+@keyframes anim-1 {
+	0%, 8.3% { opacity: 0; }
+  8.3%,25% { left: 25%; opacity: 1; }
+  33.33%, 100% { left:40%; opacity: 0; }
+}
+@keyframes anim-2 {
+	0%, 33.33% {  opacity: 0; }
+  41.63%, 58.29% { left: 25%; opacity: 1; }
+  66.66%, 100% { left:40%; opacity: 0; }
+}
+@keyframes anim-3 {
+	0%, 66.66% {  opacity: 0; }
+  74.96%, 91.62% { left: 25%; opacity: 1; }
+  66.66%, 100% { left:40%; opacity: 0; }
+}
+.over{
+  float: right;
+  width: 30%;
+  height: 320px;
+  background-color: rgb(233, 233, 233);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.analist{
+  margin-top: -33px;
+  width: 250%;
+  height: 200px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.apon{
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-family: "NotosansMedium";
+}
+.stream-div{
+ width: 100%;
+ margin: auto;
+ font-family: "NotosansThin";
+ padding: 5px;
+ border-radius: 5px;
+ -webkit-border-radius: 5px;
+ -moz-border-radius: 5px;
+ -ms-border-radius: 5px;
+ -o-border-radius: 5px;
+ border: solid rgb(182, 182, 182) 2px;
+ color:black;
+ outline: none;
+ cursor: pointer;
+ margin-left: 100px;
+ margin-top: -30px;
+}
+.stream-div:hover{
+   background-color: rgb(0, 0, 0);
+   color: white;
+}

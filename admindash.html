@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin-Dashboard</title>
+    <link rel="stylesheet" href="admin.css" />
+    <link rel="stylesheet"href="assets/fonts/fontawesome-free-5.15.3-web/css/all.css"/>
+  </head>
+  <body>
+      <style>
+          @import url(https://fonts.googleapis.com/css?family=Open+Sans:600);
+@font-face {
+  src: url(../fonts/Noto_Sans_JP/NotoSansJP-Regular.otf);
+  font-family: "NotosansRegular";
+}
+@font-face {
+  src: url(../fonts/Noto_Sans_JP/NotoSansJP-Bold.otf);
+  font-family: "Notosansbold";
+}
+@font-face {
+  src: url(../fonts/Noto_Sans_JP/NotoSansJP-Medium.otf);
+  font-family: "NotosansMedium";
+}
+@font-face {
+  src: url(../fonts/Noto_Sans_JP/NotoSansJP-Thin.otf);
+  font-family: "NotosansThin";
+}
+@font-face {
+  src: url(../fonts/Noto_Sans_JP/NotoSansJP-Light.otf);
+  font-family: "NotosansLight";
+}
+@font-face {
+  src: url(../fonts/Noto_Sans_JP/NotoSansJP-Black.otf);
+  font-family: "NotosansBlack";
+}
+body { 
+  font-family: 'Open Sans', 'sans-serif';
+  color: #cecece;
+} 
+.item-1, 
+.item-2, 
+.item-3 {
+	position: absolute;
+  display: block;
+	top: 2em;
+  width: 10%;
+  font-size: 2em;
+	animation-duration: 20s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+  margin-left: 100px;
+}
+
+.item-1{
+	animation-name: anim-1;
+  margin-left:900px;
+  margin-top: 100px;
+}
+.item-2{
+	 animation-name: anim-2;
+    margin-left:900px;
+    margin-top: 100px;
+}
+.item-3{
+	animation-name: anim-3; 
+    margin-left:900px;
+  margin-top: 100px;
+}
+@keyframes anim-1 {
+	0%, 8.3% { opacity: 0; }
+  8.3%,25% {  opacity: 1; }
+  33.33%, 100% { opacity: 0; }
+}
+@keyframes anim-2 {
+	0%, 33.33% {  opacity: 0; }
+  41.63%, 58.29% { opacity: 1; }
+  66.66%, 100% {  opacity: 0; }
+}
+@keyframes anim-3 {
+	0%, 66.66% {  opacity: 0; }
+  74.96%, 91.62% {  opacity: 1; }
+  66.66% {  opacity: 0; }
+}
+.over{
+  float: right;
+  width: 30%;
+  height: 320px;
+  background-color: rgb(233, 233, 233);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.analist{
+  margin-left:4px;
+  margin-top: -33px;
+  width: 250%;
+  height: 200px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.apon{
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-family: "NotosansMedium";
+}
+.stream-div{
+ width: 100%;
+ margin: auto;
+ font-family: "NotosansThin";
+ padding: 5px;
+ border-radius: 5px;
+ -webkit-border-radius: 5px;
+ -moz-border-radius: 5px;
+ -ms-border-radius: 5px;
+ -o-border-radius: 5px;
+ border: solid rgb(182, 182, 182) 2px;
+ color:black;
+ outline: none;
+ cursor: pointer;
+ margin-left: 100px;
+ margin-top: -30px;
+}
+.stream-div:hover{
+   background-color: rgb(0, 0, 0);
+   color: white;
+}
+      </style>
+      
+    <div class="admin-view">
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+      <div class="right">
+          <br>
+        <div class="up">
+          <div class="not-div">
+            <div class="not"> <img src="./assets/img/InShot_20210607_045826183.jpg " class="day-img" alt=""></div>
+            <div class="nots"></div>
+          </div>
+          <b class="date"> DEYUPDATE.COM <i class="fas fa-check"></i> </b>
+        </div>
+        <hr>    
+        <br />
+        <br />
+        <br />
+        <div class="profile-div">
+          <img src="./assets/img/me.jpg" class="profile-dive" alt="" />
+        </div>
+    <h5 class="idr">Twingle-f idr  <i class="fas fa-check"></i></h5>
+   <h5 class="idme">
+    4.5M followers
+</h5>
+<h6 class="idrs">
+    Frankisnaptwinglef@gmail.com
+  </h6>
+  <h3 class="upload"> +</h3>
+<a href="./addmusic.html">   <div class="add-div">
+    <p class="add"> <i class="fas fa-plus fa "></i> Add music</p>
+    </div></a>
+<br>
+<br>
+<br>
+    <a href="./addvideo.html">   <div class="add-div">
+        <p class="add"> <i class="fas fa-plus fa"></i> Add video </p>
+        </div></a>
+
+
+        <br>
+        <br>
+        <br>
+        <a href="./add.news.htm">   <div class="add-div">
+            <p class="add"><i class="fas fa-plus fa"></i> Add news</p>
+            </div></a>
+
+            <br>
+            <br>
+            <br>
+<a href="./add.bussiness.html">   <div class="add-div">
+    <p class="add"> <i class="fas fa-plus fa"></i> Add Bussiness</p>
+    </div></a>
+
+    <br>
+    <br>
+    <br>
+    <a href="./addartist.html">   <div class="add-div">
+        <p class="add"><i class="fas fa-plus fa"></i> Add artist</p>
+        </div></a>
+        <br>
+        <br>
+        <br>
+<hr class="fire">
+<br>
+<br>
+<a href="./change.html">   <div class="add-div">
+    <p class="add"><i class="fas fa-plus fa "></i> Add to booking</p>
+    </div></a>
+<br>
+<br>
+
+<a href="./change.html">   <div class="add-div">
+  <p class="add"><i class="fas fa-plus fa "></i> Add to sponsored</p>
+  </div></a>
+<br>
+<br>
+
+<a href="./change.html">   <div class="add-div">
+  <p class="add"><i class="fas fa-plus fa "></i> Change wep music</p>
+  </div></a>
+<br>
+<br>
+    <div class="down">
+       <a href="https://www.instagram.com/twingle_f_005_idr_/"> <i class="fab fa-instagram troll "> </i> </a>
+        <a href="https://web.facebook.com/Twingle-f-idr-102059932049310"><i class="fab fa-facebook troll "></i></a>
+        <a href="https://www.youtube.com/watch?v=o8lFJQ_iwWQ"> <i class="fab fa-youtube troll"></i></a>
+        <a href="./index.html"> <i class="fas fa-home troll" ></i></a>
+    </div>
+</div>
+</div>
+      </div>
+      <div class="left">
+
+        <div class="ovr">
+          
+            <p class="item-1">
+                <img src="./assets/img/bun.png" class="analist" alt="">
+             
+           <a href="./upload.html">
+             
+            <button class="stream-div">
+                Stream now
+            </button>
+        </a>
+            </p>
+        
+        <p class="item-2"><img src="./assets/img/gang.png" class="analist" alt="">  <a href="./upload.html">
+          
+            <button class="stream-div">
+                Stream now
+            </button>
+        </a> </p>
+        
+        <p class="item-3"><img src="./assets/img/fell.png " class="analist" alt="">  <a href="./upload.html">
+           
+            <button class="stream-div">
+                Stream now
+            </button>
+        </a> </p>
+        </div>
+    
+        <div class="all-container">
+          <div class="top">
+
+
+            
+            <div class="sign">
+             <button class="out"> Sign out </button>
+            </div>
+                    </div>
+<div class="sliding-div">
+<div class="img-div">
+
+</div>
+<div class="list-div">
+    <br>
+    <br>
+    <br>
+<div class="one-div">
+    <div class="one">
+       <h4 class="soul">
+        <i class="fas fa-envelope gas"></i>
+       </h4>
+    </div>
+    <div class="one">
+        <h4 class="soul">
+            LIkes
+           </h4>
+    </div>
+    
+    <div class="one">
+        <h4 class="soul">
+           Chart
+           </h4>
+    </div>
+    
+    
+</div>
+<br>
+<br>
+<br>
+<br>
+<div class="one-div">
+    <div class="one">
+       <a href="./file.html">
+        <h4 class="gallo">
+          <i class="far fa-file-image"></i>
+          </h4>
+      </a>
+    </div>
+    
+    <div class="one">
+        <h4 class="soul">
+         Coment
+           </h4>
+    </div>
+    
+    <div class="one">
+        <a href="./notificate.html"> <h4 style="color: white ; font-size: 13px; text-align: center; width: 100%; margin-left: 4px;">
+          <i class="far fa-bell gallon"></i>
+           </h4></a>
+    </div>
+</div>
+</div>
+</div>
+<div class="counting">
+<div class="count-one">
+<h3 class="total">Total <i class="fas fa-download"></i></h3>
+<h4 class="num">
+    100k
+</h4>
+<a href="./notificate.html"> <h5 class="view">
+    View
+</h5></a>
+</div>
+<div class="count-one">
+    <h3 class="total">Total days  <i class="far fa-eye"></i></h3>
+    <h4 class="num">556p</h4>
+    <a href="./index.html"> <h5 class="view">
+        View
+    </h5></a>
+</div>
+<div class="count-one">
+    <h3 class="total">Total Bussi reached</h3>
+    <h4 class="num">
+        3323k
+    </h4>
+    <a href="./index.html"> <h5 class="view">
+        View
+    </h5></a>
+</div>
+<div class="count-one">
+    <h3 class="total">Total news reeached</h3>
+    <h4 class="num">
+        1005p
+    </h4>
+    <a href="./new.html"> <h5 class="view">
+        View
+    </h5></a>
+</div>
+</div>
+<div class="down-count">
+  <div class="divide">
+
+
+    <div class="logo-holder">
+      <div class="bg"></div>
+      <div class="bar"></div>
+      <div class="bar fill1"></div>
+      <div class="bar fill2"></div>
+      <div class="bar fill3"></div>
+      <div class="bar fill4"></div>
+      <div class="bar fill1"></div>
+      <div class="bar fill5"></div>
+      <div class="bar fill6"></div>
+      <div class="bar"></div>
+    </div> 
+  </div>
+  <div class="divides">
+    <div class="lige">
+      Live chart
+    </div> 
+    
+    <hr>
+    <div class="ogwu">
+      <div class="fan">
+         Jeo@mail.com
+      </div>
+<div class="ogwu-one">
+<div class="ogwu-img">
+<img src="./assets/img/me.jpg" alt="" class="ogwu-img">
+</div>
+</div>
+
+<div class="cut"> Hello </div>
+    </div>
+
+    <div class="chuck">
+  Hi welcome 
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="ogwu">
+      <div class="fan">
+         Jeo@mail.com
+      </div>
+<div class="ogwu-one">
+<div class="ogwu-img">
+<img src="./assets/img/me.jpg" alt="" class="ogwu-img">
+</div>
+</div>
+
+<div class="cut"> Need help</div>
+    </div>
+    <div class="chuck">
+      How can we help
+        </div>
+
+    <div class="sprite">
+            <div class="sugar">
+                    <input type="test" placeholder="Text..." class="suger">
+            </div>
+    </div>
+<br>
+  </div>
+ 
+  <div class="divided">
+    <div class="boung"> Boundly</div>
+<div class="rename">
+
+  <div class="long">
+  </div><div class="longs">
+  
+  </div><div class="lon">
+  
+  </div>
+</div>
+  </div>
+
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

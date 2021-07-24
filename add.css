@@ -1,0 +1,87 @@
+@font-face {
+  src: url(../fonts/Noto_Sans_JP/NotoSansJP-Regular.otf);
+  font-family: "NotosansRegular";
+}
+@font-face {
+  src: url(../fonts/Noto_Sans_JP/NotoSansJP-Bold.otf);
+  font-family: "Notosansbold";
+}
+@font-face {
+  src: url(../fonts/Noto_Sans_JP/NotoSansJP-Medium.otf);
+  font-family: "NotosansMedium";
+}
+@font-face {
+  src: url(../fonts/Noto_Sans_JP/NotoSansJP-Thin.otf);
+  font-family: "NotosansThin";
+}
+@font-face {
+  src: url(../fonts/Noto_Sans_JP/NotoSansJP-Light.otf);
+  font-family: "NotosansLight";
+}
+@font-face {
+  src: url(../fonts/Noto_Sans_JP/NotoSansJP-Black.otf);
+  font-family: "NotosansBlack";
+}
+body{
+   padding: 0%;
+   margin: 0%;
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.container{
+    padding: 20px;
+    width: 50%;
+    background-color: white;
+    margin: auto;
+    box-shadow: 0px 3px 4px 5px rgb(212, 212, 212);
+    margin-top: 50px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.image{
+    width: 40%;
+    height: 200px;
+    margin: auto;
+    background-color: rgb(224, 222, 222);
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+.art{
+    color: rgb(99, 99, 99);
+}
+.put{
+  width: 250px;
+    padding: 15px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border: solid 2px rgb(192, 191, 191);
+    outline: none;
+}
+.right-btn{
+    width: 20%;
+    height: 70px;
+    float: right;
+    margin-top: 190px;
+}
+.lish{
+  cursor: pointer;
+  width: 100%;
+  padding: 10px;
+  background-color: rgb(0, 120, 224);
+  color: white;
+  outline: none;
+  border: none;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+}
