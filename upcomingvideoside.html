@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uplaod video</title>
+
+  <link rel="icon" type="image/png" href="./assets/img/me.jpg" sizes="16x16">
+    <link rel="stylesheet" href="add.css">
+</head>
+<body>
+    <form action="">
+        <div class="container">
+          <p style="text-align: center">Video-image</p>
+          <div class="upkol">
+            <p><input type="file"  accept="image/*" name="image" id="file"  onchange="loadFile(event)" style="display: none;"></p>
+            <p class="koload"><label for="file" style="cursor: pointer;">Upload Image</label></p>
+            <p><img id="output" width="200" /></p>
+          </div>
+          <h3 class="art">Paste the youtube embeded link </h3>
+          <textarea
+            name=""
+            id=""
+            cols="30"
+            rows="10"
+            placeholder=" paste link bellow"
+            class="put"
+          ></textarea>
+          <h3 class="art">Discribe</h3>
+          <textarea
+            name=""
+            id=""
+            cols="30"
+            rows="10"
+            placeholder="describe"
+            class="put"
+          ></textarea>  
+          <h3 class="art">Name of an artist</h3>
+          <input type="text" class="put"  required placeholder="E:g  video rema sounggam "/>
+          <h3 class="art"> Name of video</h3>
+          <input type="text" class="put" required  placeholder="E:g Download rema saundgams official video"/>
+          <h3 class="art">Video</h3>
+          <input type="file" class="put" required />
+          <h3 class="art">Date</h3>
+          <input type="date" required placeholder="date" class="put" />   
+          <div class="right-btn">
+            <button class="lish"> Publish</button>
+          </div>
+        </div>
+      </form>
+      <script src="./show.js"></script>
+</body>
+</html>

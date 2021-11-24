@@ -4,30 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Add-web-music</title>
+    <title>add artist to book </title>
 
   <link rel="icon" type="image/png" href="./assets/img/me.jpg" sizes="16x16">
     <link rel="stylesheet" href="add.css">
 </head>
 <body>
-    
     <form action="">
         <div class="container">
+          <p style="text-align: center">Artist image</p>
+          <div class="upkol">
+            <p><input type="file"  accept="image/*" name="image" id="file"  onchange="loadFile(event)" style="display: none;"></p>
+            <p class="koload"><label for="file" style="cursor: pointer;">Upload Image</label></p>
+            <p><img id="output" width="200" /></p>
+          </div>
           <h3 class="art">Name of an artist</h3>
           <input type="text" class="put"  required/>
-          <h3 class="art"> Name of music</h3>
-          <input type="text" class="put" required />
-  
-          <h3 class="art">Music</h3>
-          <input type="file" class="put" required />
-          <h3 class="art">Place</h3>
-          <select name="" id="" class="put">
-            <option value="">Bussiness</option>
-            <option value="">Music</option>
-            <option value="">News</option>
-            <option value="">video</option>
-            <option value="">Top</option>
-          </select>
+          <h3 class="art">Rate</h3>
+          <input type="text" class="put" required />   
+          <h3 class="art">Categories</h3>
+          <input type="text" class="put" required />  
           <div class="right-btn">
             <button class="lish"> Publish</button>
           </div>

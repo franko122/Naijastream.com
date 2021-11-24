@@ -21,6 +21,747 @@
 @font-face {
   src: url(../fonts/Noto_Sans_JP/NotoSansJP-Black.otf);
   font-family: "NotosansBlack";
+} 
+.tofg{
+  color: white;
+}
+.btn-bo{
+  color: white;
+  background-color: black;
+  width: 30%;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 8px;
+}
+.elistdiv{
+     width: 100%;   
+     background-color: rgb(233, 233, 233); 
+     height: 50px; 
+     justify-content: space-between;
+     align-items: center;
+     display: flex; 
+}
+.beft{
+  font-size: 30px;
+  color: rgb(94, 94, 94);
+   text-align: center;
+}
+.bo-img{
+  height: 180px;
+   width: 100%; 
+}
+.bo-one{
+   width: 75%;
+   padding: 10px;
+   height: inherit;
+   background-color: rgb(223, 223, 223); 
+}
+.bok-one{
+    width: 100%;  
+}
+.to-book{
+  width:90%; 
+  margin: auto;     
+   padding: 10px;  
+   display: flex; 
+}
+.struglr{
+  cursor: pointer;
+color: white;
+   font-size: 40px;
+}
+.news-displays{
+  display: none;
+}
+.news-display{
+  display: block;
+}
+.mobilevideodiv{
+  display: none;
+}
+.oldcar{ 
+   width: 40%;
+   height: 50px; 
+   border-radius: 50%;
+   background-color: rgb(185, 182, 182);
+}
+.spider-zi{ 
+  width: 100%;
+  background-color: rgb(235, 235, 235);
+  display: flex;
+  height: inherit; 
+}   
+.redemedtwio{
+  width: 65%; 
+  align-self: center; 
+  display: flex;
+  height: inherit;
+}
+.redemed{
+  width: 35%;
+  padding: 5px;
+  display: flex;
+  height: inherit;
+  align-items: center; 
+}
+.maples{ 
+  margin: auto;  
+  width: 30%;  
+  height: 60px;
+}
+.kanu{
+  color: red;
+   font-size: 20px;
+}
+.ruler{
+  padding:20px;
+}
+.masen{
+  display:none;
+}
+.atani{
+  width: 100%;
+  display: flex;  
+  justify-content: space-between; 
+  align-items: center;
+  padding: 10px;
+}
+.nobejujubethat{
+   width: 50%;  
+   padding: 10px; 
+   background-color: rgb(238, 238, 238);
+}
+.up-main-img-div{
+  width: 40%;
+  height: inherit;
+}
+.result{
+  width: 30%;  
+  text-align: center;  
+  background-color: rgb(238, 238, 238);
+  margin: auto;
+  padding: 10px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 12px;
+}
+.manger{
+  float: right;
+  width:11%;
+  margin-top: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  background-color: red;
+  color: white;
+}
+.icare{
+  width: 100%;
+  outline: none;
+  padding: 10px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  border-radius: 10px;
+  height: 180px;
+  border: rgb(189, 189, 189) solid 2px;
+}
+.icare:focus{
+  border: red solid 2px;
+}
+.contabainer{
+  width: 100%;  
+  margin: auto; 
+}
+.frommedia-ads-div{
+  display: none;
+}
+.rederty{
+  color: black;
+  font-size:30px;
+  animation-name: turn;
+  animation-duration: 120s; 
+  animation-iteration-count: infinite;
+}
+@keyframes turn{
+  10%{
+    transform: rotate(5000deg); 
+  }
+}
+.loading-down{
+  width:18%;
+  text-align: center; 
+  height:50px;   
+}
+.pageloading-div{
+  width: 100%;
+  position: fixed;
+  display: flex;
+  justify-content: center ;
+  align-items: center;
+  visibility: hidden;
+  height: 950px;
+  z-index: 66;
+  animation-duration: 3s;
+  animation-name: grow;
+  background-color: rgb(255, 255, 255);
+}
+@keyframes grow{
+   10%{
+     visibility: visible;
+   }
+}
+.pikiner{
+  font-size: 14px;
+}
+.explore-divers{
+  width: 50%;
+  margin: auto;
+  height: 30px; 
+}
+.expl{
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  width: 100%;
+  background-color: black;
+  height: inherit;
+}
+.adserer{ 
+  width: 100%;
+  text-align: center;
+}
+.rameo{
+  width: 100%;
+  height: inherit;
+}
+.ad-one-co{
+  width: 100%;
+  height: 190px;
+  display: flex; 
+}  
+.ad-twos{ 
+  width: 50%; 
+  padding:2px;
+  text-align: center;
+}
+.ad-two{
+  width: 50%; 
+  height: inherit;  
+}
+.fistgin{
+  width: 40%; 
+  color: rgb(0, 0, 0);
+  margin-top:300px; 
+  position: fixed;
+  padding: 5px;
+  visibility: hidden;
+  z-index: 22;  
+  margin-left: 360px;
+  background-color: rgb(243, 243, 243);
+  animation-name: jozz;
+  border-radius: 10px;
+  animation-duration: 7s; 
+  animation-delay: 4s;
+}
+@keyframes jozz{
+   10%{
+     visibility: visible;   
+     margin-left: 400px; 
+   }
+}
+.ii{
+  text-align: right; 
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  
+}
+.b-ca{
+  margin-right:10px;
+  cursor: pointer;
+  font-size:20px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.btn-in-te{
+   background-color: white;
+   border: rgb(165, 165, 165) ; 
+   cursor: pointer;
+   color: blue;
+   font-size: 17px;
+}
+.hire{
+  padding: 10px;
+  outline: none;
+  display: block;
+  width: 80%;
+  border-radius: 5px;
+  border: rgb(165, 165, 165) solid 2px;
+}
+.senxer{
+  width: 100%;   
+  justify-content: space-around;
+  margin-top:12px;
+  display: flex; 
+}
+.kinger{
+  width: 40%;
+  float: right;
+  color: black;
+  padding: 5px;
+  margin-top: 20px; 
+  border-radius: 5px;
+  background-color: rgb(228, 226, 226); 
+}
+.minihgt{  
+  color: rgb(143, 143, 143);
+  text-align: center; 
+}
+.admin-pannell{
+   width: 80%;  
+  }
+.bun-pictureder{
+   width: 17%;
+   height: 50px; 
+   border-radius: 1000px; 
+}
+.biafraflager{
+  width: 100%;
+  height: inherit;
+  border-radius: 100px;
+}
+.webroke{
+  width: 100%;
+  padding: 5px;
+  justify-content: space-around;
+  display: flex;
+  align-items: center;
+  border-radius: 5px; 
+  background-color: rgb(228, 226, 226);
+}
+.sters{
+  color: red;
+  text-align: center;
+}
+.yes-drop{
+   width:24.5%;
+   height: 420px;
+   overflow: scroll;
+   margin-top: -420px;
+   margin-right: -96.1px;
+   display: none;
+   float: right;
+   padding: 10px;
+   box-shadow: rgb(206, 206, 206) 0px 0px 3px 5px;
+   background-color: rgb(255, 255, 255);
+} 
+.yes-drop::-webkit-scrollbar{
+  display: none;
+}
+.seco-hold:hover .yes-drop{
+  display: block; 
+}
+.mober{
+  border-radius: 1000px;
+  float: right;
+  width: 5%;
+  align-items: center;
+  display: flex;
+  height: 65px;
+  cursor: pointer;
+  margin-right:45px;
+  background-color: white;
+  animation-name: ikey;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+} 
+@keyframes ikey {
+  10%{
+    background-color: rgba(255, 0, 0, 0.507);
+  }
+   20%{
+    background-color: rgb(0, 26, 255);
+   }
+}
+.filmery{
+  width: 100%;
+  z-index: 22;
+  position: fixed;
+  margin-top: 700px;   
+  float: right;  
+}
+.moders{
+  width: 100%;
+}
+.ebedede{
+  width: 100%;
+  height: 250px;
+}
+.arrayerd{
+  width: 100%;
+  height: inherit;
+}
+.prinstinger{
+    width:90%;
+    height: 450px;
+    margin: auto; 
+}
+ .anomedia{
+    display: none;
+}
+.avater{
+  color: rgb(255, 255, 255);
+}
+.listeder{
+  width: 80%;  
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+}
+.miter{
+  width: 30%;
+  border: none;
+  outline: none;
+  color: white;
+  background-color: red;
+}
+.fotsubers{
+   padding: 17px;
+   width: 100%;
+   border: none;
+   outline: none;
+}
+.forwiner{
+  width: 75%;
+  height: inherit; 
+}
+.sub-diber{
+  width:30%;    
+  display: flex;
+  height:50px;
+  margin: auto; 
+}
+.img-downferd{
+  width: 100%; 
+  height: inherit;
+}
+.rederwer{
+    width: 30%;
+    height: inherit;   
+    text-align: center;
+    font-size: 12px;
+}
+.rederwers{ 
+    width: 30%;   
+    font-size: 12px; 
+    text-align: center;
+}
+.downloister{
+   width:100%;
+   margin: auto; 
+   display: flex;
+   justify-content: space-between; 
+   height:200px;
+}
+.reamersd{
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+.hide-footser{
+   display: none;
+}
+.againfooters{
+  width: 100%;
+  display: block; 
+  margin-top: -125px;
+  padding: 10px;
+  background-color: rgb(0, 0, 0);
+}
+  .only-were{
+    display: block;
+  }
+  .khalidss{
+  display: none;
+}
+.viewerings{
+  width: 30%;
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+  border-radius: 10px;
+  box-shadow: rgb(172, 169, 169) 1px 5px 5px ;
+  padding:10px;
+  border: none;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  align-self: center;
+  -o-border-radius: 10px;
+}
+.biewwer{
+  width: 40%;
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+  border-radius: 10px;
+  box-shadow: rgb(172, 169, 169) 1px 5px 5px ;
+  padding:10px;
+  border: none;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  align-self: center;
+  -o-border-radius: 10px;
+}
+.downm-btn{
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+  display: flex; 
+  height:100px; 
+}
+.labrom{
+  color: rgb(82, 79, 79);
+  font-size:15px;
+}
+.guing{
+  width: 100%;
+  align-self: center;
+  color: black;
+  text-align: center;
+}
+.trew{
+  width: 100%;
+  cursor: pointer;
+  color: black;
+}
+.two-ads{
+  width: 20%;
+  text-align: center;
+  height: inherit;
+  display: flex;
+  align-items: center; 
+  font-size: 30px;
+}
+.casndel{
+  width: 80%;
+  height: inherit;
+  display: flex; 
+}
+.wogosiyu{
+  width: 100%; 
+  height: 50px;
+  display: flex; 
+}
+.x-oneside{
+  width: 50%; 
+  padding: 5px;
+  height: inherit; 
+}
+.m-ji{
+  width: 100%;
+  height: inherit;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.small-imgss{
+  width: 50%;
+  height: inherit; 
+}
+.x-on{
+  text-align: right;
+  color: black;
+  font-size: 27px;
+}
+.cancel-one{ 
+  float: right;
+  padding: 20px;
+  cursor: pointer;
+  display: flex; 
+}
+.smallshow{
+  width: 50%;
+  height: 300px;
+  display: flex;
+  position: fixed;
+  margin-top: 350px;
+  z-index: 22;
+  visibility: hidden;
+  margin-left: 360px;
+  background-color: rgb(255, 255, 255);
+  animation-name: times;
+  animation-duration: 6s;
+  border-radius: 10px;
+  animation-delay: 3s;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+@keyframes times{
+    10%{
+      visibility: visible;
+      margin-left: 300px;
+    }
+}
+.slowers{
+  color: rgb(255, 0, 0);
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 30px;
+}
+.chanrt{
+   width: 5%; 
+   height: 60px;
+   border-radius: 100px;
+   color: black;
+   display: flex;
+   background-color: rgba(255, 255, 255, 0.803);
+   cursor: pointer;
+   align-items: center;
+   -webkit-border-radius: 100px;
+   -moz-border-radius: 100px;
+   animation-name: facolis;
+   animation-iteration-count: infinite;
+   -ms-border-radius: 100px;
+   animation-duration: 2s;
+   -o-border-radius: 100px;
+}
+@keyframes facolis{
+       10%{ 
+         background-color: rgba(0, 68, 255, 0.618);
+       }
+       20%{   
+         background-color: rgba(0, 195, 255, 0.589);
+       }
+       40%{   
+         background-color: rgba(0, 89, 255, 0.837);
+       }
+}
+.hang-inside{
+  width: 90%;
+  display: flex;
+  justify-content: flex-end;
+  align-items:center;
+  height:0px;
+  margin: auto;   
+}
+.antherhang-div{
+  width: 100%;  
+  margin-top: 820px;
+  z-index: 22;
+  position: fixed;
+}
+.btnstwod{
+  width: 18px;
+  background-color: white;
+  outline: none;
+  cursor: pointer;
+  border: none;
+}
+.btnshows{
+  background-color: white;
+  cursor: pointer;
+  border: rgb(163, 163, 163) solid 2px ;
+  width: 18%;
+}
+.desshow{
+  color:  black;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+    width: 20%;
+    height: 40px; 
+}
+.hdfine{
+  margin-top: 320px;
+  width: 100%;
+  color: rgb(0, 0, 0);
+  margin: 0%;
+  text-align: center;
+}
+.twpwo{
+  margin-top: 10px;
+  font-size: 10px;
+  text-align: right;
+  color: rgb(111, 111, 111);
+}
+.alame{
+   width: 100%;
+   height: inherit; 
+}
+.home-vid-div{ 
+  width: 100%; 
+  height: 260px;
+  margin-top: 35px; 
+}
+.extra{
+   color: rgb(255, 255, 255);
+   width: 100%; 
+   cursor: pointer;
+   align-self: center;
+   font-size: 50px; 
+   text-align: center;
+}
+.illom{
+  color: black; 
+  font-family: "Notosansregular"; 
+  text-align: center;
+}
+.amlow{
+  margin: auto;
+  align-self: center;
+   width: 30%;
+   height: 70px; 
+}
+.master{
+  background-size: cover;
+   width: 100%;
+   height: 190px;
+   display: flex;
+   background-blend-mode: multiply;
+   display: flex;
+   background-color: rgba(10, 10, 10, 0.487);
+   background-image: url("/assets/img/chel.jpeg");
+}
+.peru{
+   color: white;
+}
+.bethas{
+  width: 100%;
+  font-size: 10px;
+}
+.mob-search{
+   display:none;
+}
+.uploads{
+   width: 100%;
+   height:30px;
+}
+.ubagi{
+   width: 40%;
+   margin: auto;
+   font-size: 10px;
+   border: rgb(199, 199, 199) 2px solid;
+   background-color: rgb(255, 255, 255);
+   padding: 10px;
+   height: inherit;
+   margin-left:90px;
+}
+.god{
+  text-align: center;
+  font-size: 70px;
+  font-family: "NotosansMedium";
+  margin-top: -55px;
+}
+.two-dots{
+  margin-top: -200px;
+  width: 50%;
+  font-family: "NotosansLight";
+  font-size: 200px;
 }
 .idera{
   width: 40%;
@@ -35,6 +776,10 @@
 .up-img{
   margin: auto;
   width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px; 
 }
 .ding{
   color: rgb(75, 75, 75);
@@ -44,6 +789,7 @@
 .soreds{
   color: rgb(202, 201, 201);
   margin-top:50px;
+  font-size: 10px;
 }
 .olamid{
   color:  rgb(102, 102, 102);
@@ -62,11 +808,23 @@
   width: 20%;
   height:79px;
 }
+.olowo:hover{
+  transition: 1s;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
+}
+.olamid:hover{
+  color: white;
+}
 .olowo{
   display: flex;
   width: 100%;
   border: rgb(233, 233, 233) 2px solid;
-  background-color: rgb(241, 241, 241);
+  background-color: rgb(255, 255, 255);
   height: 90px;
   border-radius: 10px;
   padding: 5px;
@@ -79,7 +837,7 @@
   overflow: scroll;
   padding:5px;
   border-radius: 10px;
-  background-color: white;
+  background-color: rgb(211, 211, 211);
   height: inherit;
   width: 50%;
   -webkit-border-radius: 10px;
@@ -94,7 +852,7 @@
   width: 100%;
   display: flex;
   border-radius: 10px;
-  height:260px;
+  height:260px; 
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
@@ -170,7 +928,7 @@
 .dena{
   margin-left:2px;
   font-size: 12px;
-  color: rgba(0, 0, 0, 0.288);
+  color: rgba(0, 0, 0, 0.474);
 }
 .reds{
   color: white;
@@ -238,18 +996,19 @@
   margin-top: -20px;
 }
 .ubo{
-  color: red ;
+  cursor: pointer;
+  color: rgb(0, 0, 0) ;
 }
 .sooe{
-  width: 10%;
+  width:8%;
   border-radius: 1000px;
   background-color: black;
   color: white;
   cursor: pointer;
-  border: white solid 2px;
-  padding: 20px;
-  height: 40px;
+  border: white solid 2px; 
+  height: 50px;
   display: flex;
+  text-align: center;
   align-items: center;
   -webkit-border-radius: 1000px;
   -moz-border-radius: 1000px;
@@ -265,7 +1024,8 @@
   background-color: black;
 }
 .downcontainers{
-   width: 100%;
+   width: 80%;
+   margin: auto;
 }
 .hbgg{
   text-align: center;
@@ -408,6 +1168,7 @@
  }
 .uboy{
     align-self: center;
+    cursor: pointer;
     text-align: center;
     width: 100%;
     color: rgb(0, 0, 0);
@@ -434,7 +1195,7 @@
   height: 50px;
 }
 .sounded{
-   color: red;  
+   color: red;   
   font-family: "NotosansLight";
 }
 .comodo{
@@ -445,7 +1206,7 @@
     width: 100%;
 }
 .prinsting{
-  width: 85%;
+  width: 85%; 
   margin: auto;
 }
 .care{
@@ -491,7 +1252,7 @@
 }
  .main-pic{
    margin: auto;
-     width: 95%;
+     width: 95%; 
  }
 .boko{
   color: green;
@@ -532,7 +1293,7 @@ float: right;
 }
 .extend{
    width: 70%;
-   height: inherit;
+   height:inherit;
 }
 .listend{
   width: 50%;
@@ -1131,12 +1892,13 @@ color: black;
 }
 .iron {
   color: rgb(255, 0, 0);
-  font-size: 30px;
+  font-size: 25px;
   cursor: pointer;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .iro {
-  color: rgb(0, 0, 0);
-  font-size: 30px;
+  color: rgb(0, 0, 0); 
+  font-size: 25px;
   cursor: pointer;
 }
 .boss {
@@ -1149,7 +1911,7 @@ color: black;
 }
 .slow {
   cursor: pointer;
-  font-size: 28px;
+  font-size: 22px;
   color: rgb(255, 255, 255);
 }
 .slow:hover {
@@ -1173,7 +1935,7 @@ color: black;
 .earth {
   height: 180px;
   width: 100%;
-  background-color: black;
+  background-color: rgb(0, 0, 0);
 }
 .oly {
   background-color: white;
@@ -1297,11 +2059,16 @@ color: black;
   box-sizing: border-box;
 }
 body {
-  background-color: rgb(228, 228, 228);
+  background-color: rgb(255, 255, 255);
   font-family: NotosansThin;
   margin:0%;
   padding:0%;
+  transition: 1s;
+  transition: 1s;
   font-family: NotosansLight;
+}
+body::-webkit-scrollbar{
+  display: none;
 }
 .one {
   width: 100%;
@@ -1317,7 +2084,7 @@ body {
   cursor: pointer;
   position: fixed;
   border-radius: 6px;
-  margin-top: -790px;
+  margin-top: -790px; 
   width: 4%;
   height: 40px;
   transition: 1s;
@@ -1463,6 +2230,17 @@ a {
   position: relative;
   width: 100%;
   border: rgb(158, 158, 158) solid 3px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.people-containers {
+  border-radius: 10px;
+  height: 210px;
+  position: relative;
+  width: 100%;
+  border: rgb(158, 158, 158) solid 3px;
 }
 .overlays {
   cursor: pointer;
@@ -1478,9 +2256,11 @@ a {
 .texts {
   color: white;
   font-size: 20px;
+  background-color: rgba(0, 0, 0, 0.623);
   position: absolute;
   top: 50%;
   left: 50%;
+  width: 100%;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
@@ -1500,12 +2280,15 @@ a {
 }
 .follow {
   border-bottom: solid white 2px;
+  font-size: 15px;
+  text-align: center;
   font-family: Notosansbold;
   color: white;
 }
 .follows {
   text-align: center;
   color: rgb(255, 255, 255);
+  font-size: 15px;
 }
 .idr {
   font-family: NotosansLight;
@@ -1516,9 +2299,9 @@ a {
   font-size: 15px;
   text-align: center;
 }
-.sele {
-  display: flex;
+.sele { 
   width: 100%;
+  padding: 10px;
   background-color: rgb(255, 255, 255);
 }
 .beside {
@@ -1527,7 +2310,8 @@ a {
   background-color: rgb(199, 199, 199);
 }
 .down {
-  width: 95%;
+  width: 63%;
+  margin-top: -80px; 
   float: right;
   font-size: 15px;
 }
@@ -1537,6 +2321,7 @@ a {
 }
 .lab {
   cursor: pointer;
+  font-size: 12px;
   border-bottom: solid rgb(155, 155, 155) 2px;
 }
 .lab:hover {
@@ -1546,7 +2331,7 @@ a {
   color: red;
 }
 .top-title {
-  background-color: rgba(0, 0, 0, 0.747);
+  background-color: rgba(0, 0, 0, 0.741);
   background-blend-mode: multiply;
   background-image: url("/assets/img/images.png");
   background-repeat: no-repeat;
@@ -1691,7 +2476,7 @@ a {
 }
 .sec-two {
   box-shadow: 1px 5px 5px 5px rgb(201, 201, 201);
-  border-radius: 6px; 
+  border-radius: 6px;   
   border: solid rgb(255, 255, 255) 1px;
   width: 28%;
 }
@@ -1706,7 +2491,9 @@ a {
   height: 450px;
   background-color: rgb(255, 255, 255);
 }
-
+.artist-container::-webkit-scrollbar{
+  display: none;
+}
 .dell {
   cursor: pointer;
   border-radius: 5px;
@@ -1946,7 +2733,7 @@ a {
   width: 40%;
   float: right;
   margin-right: 20px;
-  background-color: rgb(245, 245, 245);
+  background-color: rgb(243, 243, 243);
   -webkit-border-radius: 7px;
   -moz-border-radius: 7px;
   -ms-border-radius: 7px;
@@ -2002,8 +2789,9 @@ a {
 .news-container {
   overflow: scroll;
   height: 700px;
-  background-color: white;
+  background-color: rgb(245, 0, 0);
   width: 95%;
+  display: none;
   margin: auto;
 }
 .under {
@@ -2109,12 +2897,12 @@ a {
   font-size: 25px;
   border-bottom: solid black 2px;
 }
-.oya {
-  width:17%;
+.oya { 
   color: green;
 }
 .illo {
   text-align: center;
+  margin-top: 50px; 
   color: rgb(104, 102, 102);
   font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
@@ -2305,6 +3093,53 @@ a {
 
 
 @media (max-width: 320px) {
+  .news-container{
+    display: block;
+    background-color: white;
+  }
+  .pleow{
+    width: 100%;
+  }
+  .elses{
+    border-radius: 10px;
+    width: 17%;
+    border: rgb(202, 202, 202) solid 2px;
+    padding:5px;
+    background-color: rgb(255, 255, 255);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+  .else{
+    width:80%;
+    outline: none;
+    padding: 10px;
+    border-radius: 10px;
+    height: inherit;
+    border: rgb(208, 208, 208) solid 2px ;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+  .mob-search{
+     width: 100%;
+     padding: 10px;
+     height:55px;
+     align-items: center;
+     display:flex;
+     background-color: rgb(255, 255, 255);
+  }
+  .earth{
+    height: 120px;
+  }
+  .trys{
+    font-size:15px;
+  }
+  .fresher-div{
+    height:2px;
+  }
   .medicate{
     font-size: 12px;
      margin-top:255px;
@@ -2316,7 +3151,7 @@ a {
      font-size: 13px;
   }
   .soreds{
-     font-size: 12px;
+     font-size: 10px;
   }
   .chiling{
     width: 100%;
@@ -2407,7 +3242,7 @@ a {
   }
   .bloafy{
     width: 100%;
-    font-size: 17px;
+    font-size: 14px;
     color: rgb(80, 80, 80);
     margin: 0%;
     padding: 0%;
@@ -2526,7 +3361,7 @@ a {
       font-size: 10px;
     }
   .bealrightok{
-    width: 80%;
+    width: 10%;
   }
   .oboy{
     background-color: white;
@@ -2710,9 +3545,6 @@ margin: auto;
   .alai{
     width: 150%;
   }
-  .checkbox-container{
-    top:-6px;   
-  }
   .plore{
     width: 50%;
   }
@@ -2808,20 +3640,6 @@ margin: auto;
     margin: auto;
     height: 70px;
     background-color: rgb(0, 0, 0);
-  }
-  .fresher-btn {
-    border: solid rgb(189, 189, 189) 2px;
-  }
-  .oly {
-    margin-right: 20px;
-    border: solid rgb(189, 189, 189) 2px;
-  }
-  .fresher {
-    margin: auto;
-    background-color: white;
-    width: 100%;
-    height: 80px;
-    margin-top: 1px;
   }
   .john {
     align-self: center;
@@ -2984,7 +3802,7 @@ margin: auto;
     width: 25%;
   }
   .show {
-    background-color: rgb(65, 60, 60);
+    background-color: rgb(0, 0, 0);
   }
   .dont {
     display: none;
@@ -3110,7 +3928,48 @@ margin: auto;
 
 
 @media (max-width: 375px) {
-
+  .news-container{
+    display: block;
+    background-color: white;
+  }
+  .fresher{
+    align-items: center;
+}
+  .elses{
+    border-radius: 10px;
+    width: 17%;
+    border: rgb(202, 202, 202) solid 2px;
+    padding:5px;
+    background-color: rgb(255, 255, 255);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+  .else{
+    width:80%;
+    outline: none;
+    padding: 10px;
+    border-radius: 10px;
+    height: inherit;
+    border: rgb(208, 208, 208) solid 2px ;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+  .mob-search{
+     width: 100%;
+     align-items: center;
+     padding: 10px;
+     height:55px;
+     align-items: center;
+     display:block;
+     background-color: rgb(255, 255, 255);
+  }
+  .earth{
+    height: 120px;
+  }
   .medicate{
     font-size: 12px;
      margin-top:255px;
@@ -3610,18 +4469,14 @@ margin: auto;
     height: 70px;
     background-color: rgb(0, 0, 0);
   }
-  .fresher-btn {
-    border: solid rgb(189, 189, 189) 2px;
-  }
   .oly {
     margin-right: 20px;
     border: solid rgb(189, 189, 189) 2px;
   }
   .fresher {
     margin: auto;
-    background-color: white;
     width: 100%;
-    height: 80px;
+    height: -310px;
     margin-top: 1px;
   }
   .john {
@@ -3785,7 +4640,7 @@ margin: auto;
     width: 25%;
   }
   .show {
-    background-color: rgb(65, 60, 60);
+    background-color: rgb(0, 0, 0);
   }
   .dont {
     display: none;
@@ -3864,8 +4719,282 @@ margin: auto;
 
 
 
-
 @media (max-width:425px) {
+  .reserve{
+     font-size: 11px;
+  }
+  .beft{
+     display: none;
+  }
+  .to-book{
+    display: none;
+  }
+  .news-displays{ 
+    padding:10px; 
+    display: block;
+  }
+  .news-display{
+       display: none;
+  }   
+  .mobilevideodiv{
+    display: block;
+  }
+  .mamasita{
+    padding:10px;
+  }
+  .manipllat{
+    margin-top: 100px;
+    width: 100%;
+    background-color: blue;
+    height: 230px;
+  }
+  .maples{
+    width: 100%;   
+  }
+  .kanu{ 
+    font-size: 18px;
+  }
+  .nobejujubethat{
+     width: 100%;
+  } 
+  .ruler{
+     padding: 10px;
+  }
+  .atani{
+    font-size: 11px; 
+    height:20px;
+  }
+  .masen{
+    display: block;
+  }
+  .illo{
+    margin-top: 10px;
+  }
+  .up-main-img-div{
+    width: 100%; 
+  }
+  .up-img{ 
+    display: block;
+  }
+  .manger{
+    width: 30%; 
+    cursor: pointer;
+  }
+  .result{
+    width: 100%;
+    font-size: 11px; 
+  }
+  .icare{
+    height: 70px;
+  }
+  .frommedia-ads-div{
+    display: block;
+    width: 90%; 
+    position: fixed;    
+    margin-left: 20px;
+    padding: 5px;
+    border-radius: 10px;
+    z-index: 19;
+    margin-top: 260px;
+    visibility: hidden;
+    animation-name: celebrate;
+    height: 200px;
+    transition: 1s;
+    animation-duration: 4s;
+    animation-delay: 4s;
+    background-color: rgb(255, 255, 255);
+  }
+  @keyframes celebrate {
+     10%{ 
+           visibility: visible;
+     }
+  }
+  .hahaahahba{
+    width: 96%;  
+  }
+  .pikiner{
+    color: black;
+    font-size: 10px;
+  }
+  .ad-two{
+    height: 143px;
+  }  
+  .ii{   
+    padding: 0px; 
+  }
+  .adserer{ 
+    padding: 10px;
+    width: 100%;
+    justify-content: space-between;
+    display: flex; 
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: black;
+  }
+  .fistgin{
+    display: none;
+    }  
+  .washopdiv{
+    width: 82%;
+    margin: auto;
+    padding: 10px;
+    display: flex; 
+    font-size: 10px;
+    color: white;
+    justify-content: center; 
+  }
+  .filmery{
+    margin-top:550px; 
+  }
+  .mober{
+    width: 15%;
+    height:50px;
+  }
+  .yes-drop{
+    width: 100%;
+    margin-left:-30px;
+  }
+  .prinstinger{ 
+    height:200px;
+  }
+  .likethat{
+    color: white;
+  }
+  .lostre{
+     width: 100%;
+     height: 40px;
+     display: flex;
+     font-size: 13px;
+     align-items: center; 
+     justify-content: space-between; 
+     color: white;
+  }
+  .streamerreded{
+     text-align: center;
+     color: rgb(168, 168, 168);
+     font-size: 11px;
+  }
+  .lighters{
+    padding: 16px;
+    background-color: red;
+    border: white;
+    outline: none;
+    color: white;
+
+  }
+  .zozo{
+      width: 70%;
+      padding: 17px;
+      outline: none;
+      border: none;
+  }
+  .bloker{
+     width: 90%;   
+     margin: auto;
+     display: flex;
+     background-color:black;
+  }
+  .anomedia{
+    width: 100%;
+    display: block;
+    background-color: black;
+    margin-top: -110px;  
+    padding: 15px;
+  }
+  .againfooters{
+    display: none;
+  }
+  .hide-footser{
+     display: block;
+  }
+  .only-were{
+    display:none;
+  }
+    .ruinhg{
+    margin-top: -10px;
+  }
+  .biewwer{
+    font-size: 8px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+  .viewerings{
+    font-size: 10px ;
+    width: 40%;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}  
+  .downm-btn{
+    margin-top: 20px;
+    height: 10px; 
+  }
+  .labrom{
+    font-size: 7px;
+  }
+  .chiziha{
+    width: 50%;  
+    height: inherit;   
+  }
+  .chizihas{
+    width: 50%; 
+    padding: 5px;
+    background-color: white;
+    height: inherit;   
+  }
+  .smallshow{ 
+    display: none;
+  }
+  .khalidss{
+    position: fixed;
+    width: 90%;
+    border-radius: 10px;
+    margin-top: 300px;
+    margin-left:16px;
+    display: flex;
+    height: 160px;
+    z-index: 22; 
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    animation-duration: 5s;
+    animation-delay: 3s;
+    visibility: hidden;
+    animation-name: timeser;
+}
+@keyframes timeser{
+   10%{
+     visibility: visible;
+   }
+}
+  .desshow{
+    width: 45%;
+  }
+  .antherhang-div{ 
+    margin-top:530px;
+    height: 1px;
+  }
+  .hang-inside{
+    height: 1px;
+    width: 97%;
+  }
+  .slowers{
+    font-size: 16px;
+    color: rgb(255, 0, 0);
+  }
+  .chanrt{
+    width: 14%; 
+    height:40px; 
+  }
+  .news-container{
+    display: block;
+    background-color: white;
+  }
   .medicate{
     font-size: 12px;
      margin-top:255px;
@@ -4501,7 +5630,9 @@ margin: auto;
     width: 100%;
   }
   .oya {
-    width:60%;
+    width: 200%;
+    font-size: 11px; 
+    margin-right: 30px;
   }
   .sounded{
 
@@ -4553,7 +5684,8 @@ margin: auto;
     width: 25%;
   }
   .show {
-    background-color: rgb(65, 60, 60);
+    font-size: 12px;
+    background-color: rgb(0, 0, 0);
   }
   .dont {
     display: none;
@@ -4656,10 +5788,60 @@ margin: auto;
 
 
 
-
-
-
-@media (width: 768px) {
+@media (width: 768px) { 
+  
+  .mobilevideodiv{
+    display: block;
+  }
+  .kanu{ 
+    font-size: 18px;
+  }
+  .nobejujubethat{
+     width: 100%;
+  } 
+  .ruler{
+     padding: 10px;
+  }
+  .atani{
+    font-size: 11px; 
+    height:20px;
+  }
+  .masen{
+    display: block;
+  }
+  .illo{
+    margin-top: 10px;
+  }
+  .up-main-img-div{
+    width: 100%; 
+  }
+  .up-img{ 
+    display: block;
+  }
+  .manger{
+    width: 30%; 
+    cursor: pointer;
+  }
+  .result{
+    font-size: 16px;
+  }
+  .icare{
+    height: 70px;
+  }
+  .manger{ 
+    cursor: pointer;
+     width: 20%;
+  }
+  .yes-drop{
+    margin-right:-1px; 
+    width: 50%;
+  }
+  .sics{
+    font-size:12px;
+  }
+  .hapyness{
+    width:100%;
+  }
   .tableg{
     width:50%;
     margin: auto;
@@ -5205,7 +6387,7 @@ color: rgb(150, 150, 150);
     width: 25%;
   }
   .show {
-    background-color: rgb(65, 60, 60);
+    background-color: rgb(0, 0, 0);
   }
   .dont {
     display: none;

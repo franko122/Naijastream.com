@@ -24,8 +24,17 @@
 }
 body{
    padding: 0%;
+   background-color: rgba(0, 0, 0, 0.192);
    margin: 0%;
    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}   
+.upkol{
+   width: 40%;  
+   padding: 1px;
+   background-color: rgb(241, 241, 241);
+   color:red; 
+   text-align: center; 
+   margin: auto; 
 }
 .container{
     padding: 20px;
@@ -84,4 +93,63 @@ body{
   -moz-border-radius: 6px;
   -ms-border-radius: 6px;
   -o-border-radius: 6px;
+}
+
+
+@media (max-width:425px){
+  .upkol{
+    width: 100%;
+  }
+     .container {
+       width:82%;
+       height: 960px;
+       margin-top: -10px;
+       margin: auto;
+     }
+     .image{
+       background-color: rgb(226, 226, 226);
+       width:90%;
+     }
+     .put{
+       margin: auto;
+       margin-left: -10px;
+     }
+     .art{
+       font-size: 13px;
+     }
+     .lish{
+       margin-left: -20px;
+       display: flex; 
+       margin-top:-170px;
+       width: 130%;
+     }
+}
+.eamil-very{
+  width: 60%;
+  padding: 10px;
+  height:70px;
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  margin: auto;
+}
+.holder{
+    outline: none; 
+    border: rgb(223, 223, 223) 2px solid;
+    padding:25px;
+    width:65%;
+
+}
+.bivbe{ 
+  outline: none;
+  border: none;
+  color: white;
+  background-color: red;
+  width: 30%;
+  font-size: 15px;
+}
+.loiji{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: rgb(122, 121, 121);
+  font-size: 15px;
+  text-align: center;
 }

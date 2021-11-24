@@ -134,7 +134,11 @@ html {
     padding-bottom: 1em;
     cursor: pointer;
     transition: color 0.5s, background 0.5s;
-  }
+    -webkit-transition: color 0.5s, background 0.5s;
+    -moz-transition: color 0.5s, background 0.5s;
+    -ms-transition: color 0.5s, background 0.5s;
+    -o-transition: color 0.5s, background 0.5s;
+}
   
   .menu-content ul li:hover {
     color: #0CD6AD;

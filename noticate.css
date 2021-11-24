@@ -38,6 +38,9 @@ body {
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
   }
+  .container::-webkit-scrollbar{
+      display: none;
+  }
   .one:hover {
     box-shadow: 0px 4px 10px 5px rgb(218, 217, 217);
   }
@@ -108,6 +111,9 @@ body {
   a{
       text-decoration: none;
   }
+  .gos{
+    color: white;
+  }
   .hang {
     margin-left: -9px;
     margin-top: -9px;
@@ -122,17 +128,32 @@ body {
     border-radius: 10333px;
     height: 70px;
     background-color: rgb(13, 74, 143);
-    position: fixed;
-    -webkit-border-radius: 10333px;
-    -moz-border-radius: 10333px;
-    -ms-border-radius: 10333px;
-    -o-border-radius: 10333px;
+    position: fixed; 
     margin-left: 722px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-top: 600px;
+    color: white;
     cursor: pointer;
   }
   .go{
       color: white;
       margin-top: 20px;
       margin-left: 10px;
+  }
+  @media (max-width:425px){
+      .container{
+        margin-top:-1px;
+        width: 90%;
+      }
+      .hang{
+        width: 95%;
+      }
+      .text-div{
+        font-size: 12px;
+      }
+      .date-div{
+font-size: 12px;
+      }
   }

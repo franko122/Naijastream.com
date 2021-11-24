@@ -1,0 +1,2010 @@
+
+body{
+    padding: 0%;
+    margin: 0%;
+    font-family: "Notosansregular";
+  }
+  body::-webkit-scrollbar{
+     display: none;
+  }
+  @font-face {
+      src: url(./assets/fonts/Noto_Sans_JP/NotoSansJP-Regular.otf);
+      font-family: "NotosansRegular";
+    }
+    @font-face {
+      src: url(./assets/fonts/Noto_Sans_JP/NotoSansJP-Black.otf);
+      font-family: "Notosansbold";
+    }
+    @font-face {
+      src: url(./assets/fonts/Noto_Sans_JP/NotoSansJP-Medium.otf);
+      font-family: "NotosansMedium";
+    }
+    @font-face {
+      src: url(./assets/fonts/Noto_Sans_JP/NotoSansJP-Thin.otf);
+      font-family: "NotosansThin";
+    }
+    @font-face {
+      src: url(./assets/fonts/Noto_Sans_JP/NotoSansJP-Light.otf);
+      font-family: "NotosansLight";
+    }
+    @font-face {
+      src: url(./assets/fonts/Noto_Sans_JP/NotoSansJP-Black.otf);
+      font-family: "NotosansBlack";
+    } 
+    .gion{
+      color: black;
+      text-decoration: none;
+    }
+    .weno{
+      display: none;
+    } 
+    .mylife{
+      display: none;
+    }
+    .mobuy{
+      display: none;
+    }
+      .mobe-post{
+          display: none;
+    }
+    .bee{
+      display: none;
+    }
+  .perus{
+    cursor: pointer;
+      text-decoration: none;
+      color: white;
+  }
+    .foot-foter{
+      display: none;
+    }
+  .first-container{
+    display: inline;
+      width: 50%;   
+  }
+  .para{
+      width: 100%;  
+  }
+  .container{
+      width:100%;
+      background-size: 100% 100%;
+      height: 300px;
+      padding:20px; 
+      margin-top:10px;
+      background-blend-mode: multiply;
+      background-color: rgba(0, 0, 0, 0.651);
+      background-image: url("./assets/img/waff.jpeg"); 
+      animation-name: slow;
+      animation-duration: 10s;
+      animation-iteration-count: infinite;
+  }
+  @keyframes slow{
+        10%{
+               visibility: hidden;
+        }
+        20%{
+            background-image: url("./assets/img/waterf.jpeg");
+            background-color: rgba(0, 0, 0, 0.555);
+  }
+        30%{
+            background-image: url("/assets/img/whatsapp.png");
+        }
+        40%{
+            background-image: url("/assets/img/wsaert.jpeg");
+        }
+        50%{
+            background-image: url("/assets/img/watd.jpeg");
+        }
+        60%{
+            background-image: url("/assets/img/wwenai.jpeg");
+        }
+        70%{
+            background-image: url("/assets/img/waad\ \(1\).jpeg");
+        }
+        80%{
+            background-image: url("/assets/img/waff.jpeg");
+        }
+        90%{
+            background-image: url("/assets/img/whatsapp.png");
+        }
+  }
+  .fine{
+      width: 100%;
+      height: inherit;
+  }
+  .feet{
+      width: 100%;
+      color: rgb(255, 255, 255);
+      animation-name: oreke;
+      animation-duration: 8s; 
+      visibility: hidden; 
+  }
+  @keyframes oreke{
+      10%{
+         margin-left:60px;
+      }
+      20%{
+          visibility: visible;
+      }
+  }
+  
+  .rem{
+      color: white;
+      animation-name: love;
+      animation-duration: 8s;
+      font-size: 10px;
+      margin: 0%;
+      margin-top: -16px;
+      visibility: hidden;
+      
+  }
+  @keyframes love{
+     10%{
+         margin-left: 100px;
+     }
+     20%{
+         visibility: visible;
+     }
+  }
+  .now{ 
+      border: none;
+      color: white;
+      width: 20%;
+      margin-top: 20px;
+      height:35px;
+      border-radius: 5px;
+      padding: 5px;
+      cursor: pointer;
+      -webkit-border-radius: 5px;
+      background-color: rgb(255, 72, 0);
+      -moz-border-radius: 5px;
+      -ms-border-radius: 5px;
+      -o-border-radius: 5px;
+      animation-name: rane;
+      visibility: hidden;
+      animation-duration: 8s;
+  }
+  @keyframes rane{
+           10%{
+  
+              margin-left:140px;
+           } 
+     30%{
+         visibility: visible;
+     }
+  }
+  .feets{
+      color:  rgb(255, 255, 255);
+      animation-name: this;
+      margin-top: -160px;
+      visibility: hidden;
+      animation-delay:10s;
+      animation-duration: 8s;
+  }
+  @keyframes this{
+      10%{
+          margin-left: 112px;
+      } 
+      30%{
+          visibility: visible;
+      }
+  }
+  .rems{
+      color: white;
+      visibility: hidden;
+      animation-name: child;
+      margin-top: 430px;
+      margin: 0%;
+      animation-delay: 10s;
+      font-size: 10px;
+      animation-duration: 8s;
+  }
+  
+  @keyframes child{
+      10%{
+          margin-left: 202px;
+      } 30%{
+          visibility: visible;
+      }
+  }
+  .nows{
+      width: 20%;
+      color: white;
+      background-color: rgb(0, 102, 255);
+      border: none;
+      border-radius   : 5px;
+      padding: 10px;
+      -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+      -ms-border-radius: 5px;
+      margin-top:-10px;
+      visibility: hidden;
+      -o-border-radius: 5px;
+      animation-name: lost;
+      animation-duration: 8s;
+      animation-delay: 10s;
+  }
+  @keyframes lost{
+        10%{
+          margin-left: 162px;
+        } 30%{
+          visibility: visible;
+      }
+  }
+  .feetss{
+      color: white;
+      margin-top: -95px;
+      animation-delay: 18s;
+      visibility: hidden;
+      animation-name: boy;
+      animation-duration:3998348s;
+  }
+  @keyframes boy{
+      10%{
+          visibility: visible;
+      }
+  }
+  
+  .remss{
+      color: rgb(255, 255, 255);
+      font-size: 10px;
+      animation-name: girls;
+      margin-top:-10px;
+      visibility: hidden;
+      animation-delay: 18s;
+      animation-duration:3998348s;
+  }
+  @keyframes girls{
+     10%{
+         visibility: visible;
+     }
+  }
+  .nowss{
+      color: rgb(0, 0, 0);
+      border: none;
+      visibility: hidden;
+      animation-name: girl;
+      animation-duration:3998348s;
+      animation-delay: 18s;
+      color: white;
+      width: 20%;
+      background-color: rgb(255, 94, 0);
+      padding: 10px;
+  }
+  @keyframes girl{
+      10%{
+          visibility: visible;
+      }
+  }
+  .last{ 
+      margin-top:-159px;
+  }
+  .pointer{
+      margin-top: -155px;
+      align-items: center;
+      float: right;
+      border-radius: 5px;
+      height:50px;
+      background-color: rgba(255, 255, 255, 0.234);
+      text-align: right;
+      padding: 6px;
+      display: flex;
+      -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+      -ms-border-radius: 5px;
+      -o-border-radius: 5px;
+  }
+  .yaahh{
+      cursor: pointer;
+      font-size: 49px; 
+      color: rgb(255, 60, 0);
+      width: 100%;
+  }
+  .showimg{
+      justify-content: space-around;
+      display: flex;
+      width: 14%;
+      height: 18px;
+      margin-top: -85px;
+      background-color: rgba(255, 255, 255, 0.234);
+  }
+  .know{
+      border-radius: 100px;
+      width: 15%;
+      height:12px;
+      cursor: pointer;
+      align-self: center;
+      background-color: rgb(255, 255, 255);
+      -webkit-border-radius: 100px;
+      -moz-border-radius: 100px;
+      -ms-border-radius: 100px;
+      -o-border-radius: 100px;
+  }
+  .knows{
+      border-radius: 100px;
+      width: 15%;
+      height:12px;
+      align-self: center;
+      cursor: pointer;
+      background-color: rgb(255, 60, 0) ;
+      -webkit-border-radius: 100px;
+      -moz-border-radius: 100px;
+      -ms-border-radius: 100px;
+      -o-border-radius: 100px;
+  }
+  .com{
+      color: white;
+  }
+  .one-sbu{
+      width: 99%;
+      height: 100px; 
+      border-radius: 10px;
+      padding: 5px;
+      border: rgb(218, 218, 218) solid 2px ;
+      margin-top: 10px;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      -ms-border-radius: 10px;
+      display: flex;
+      -o-border-radius: 10px;
+  }
+  .one-sbu:hover{
+       background-color: rgb(240, 240, 240);
+  }
+  .sbu-img{
+      width: 20%;
+      height: 90px; 
+      border-radius: 10px;
+      align-self: center;
+      background-color: red;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      -ms-border-radius: 10px;
+      -o-border-radius: 10px;
+  }
+  .hands{
+      width: 100%;
+      border-radius: 10px;
+      height: inherit;
+  }
+  .hunger{
+      width:96.5%;
+      padding: 10px;
+      height: 564px;
+      overflow: scroll; 
+  }
+  .hunger::-webkit-scrollbar{
+      display: none;
+  }
+  .allto{
+      width: 60%;
+      height: 78px;
+      padding: 10px; 
+  }
+  .club{
+      font-size: 14px; 
+      margin: 0%;
+  }
+  .may{ 
+      font-size: 11px; 
+      color: rgb(107, 107, 107);
+  }
+  .peru{
+      color: rgb(0, 0, 0);
+      text-decoration: none;
+  }
+  .peru:hover{
+       border-bottom: solid 2px rgb(46, 46, 46);
+  }
+  .wami{
+      margin-top: 65px;
+      font-family: "NotosansLight";
+      font-size: 10px;
+      float: right;
+      color: rgb(184, 184, 184);
+  }
+  .recent{
+      width: 25%;  
+      overflow: scroll;
+      padding: 10px;  
+  }
+  .recenteda{ 
+      width: 25%; 
+      overflow: scroll; 
+      padding: 10px;  
+  }
+  .recenteda::-webkit-scrollbar{
+     display: none;
+  }
+  .recent::-webkit-scrollbar{
+    display: none;
+  }
+  .recents{
+      width: 25%;  
+      height: 600px;
+  }
+  .allcontain{  
+      width: 100%;   
+      display: flex;
+      
+  }
+  
+  .again{
+      width: 93%;
+      height: 200px;
+   }
+   .hine{
+      color: #717171;
+      font-size: 9px;
+      margin-top:15px;
+      float: right;
+   }
+   .mess{ 
+     margin-left: 20px;
+      width:66%;
+      padding: 5px;
+      height:inherit;      
+   }
+   .mess:hover{
+     background-color: #ededed;
+   }
+   .vadoki{
+     width: 100%;
+     height: inherit;
+   }
+   .money-fall{
+     font-size: 13px;
+       margin: 0%;
+   }
+   .money-falls{
+     font-size: 13px;
+      display: inline;  
+       color: rgb(148, 145, 145);
+   }
+   .img-ok{
+      width: 35%;
+      background-color: rgb(226, 226, 226);
+      height: inherit;
+   }
+   .again-one{
+     width: 100%; 
+     display: flex;
+     height:65px;
+   }
+   .recend{
+      font-size:18px;
+   }
+   .read{
+      width: 40%;
+      background-color: rgb(0, 0, 0);
+      padding: 6px;
+      border: none;
+      color: white;
+   }
+   .comer{margin-left: 10px;
+   }
+   .redthem{
+     font-size: 13px; 
+     text-align: center;
+      color: #717171;
+   }
+   .fill{
+      width: 59%;
+      margin-left: 10px;
+      display: flex;
+      margin-top: -10px;
+      font-size: 12px;
+      align-items: center;
+      height: 30px;
+      color: #717171;
+   }
+   .buy{
+     color: #444444;
+     margin-left: 10px;
+     width: 100%;
+   }
+   .one-pic{
+     width: 100%;
+     height: inherit;
+   }
+   .pic{
+      width: 100%;
+      height: 130px;
+   }
+   .no-pic{
+      width: 30%;
+      height: inherit;
+   }
+   .no-pics{
+     width: 30%;
+     height: inherit;
+   }
+   .nobody{
+       width: 100%;
+       margin-top: 10px;
+       height: 300px;
+       justify-content: space-around;
+       display: flex;
+       background-color: rgb(255, 255, 255);
+   }
+   
+   .tea{
+     width: 10%;
+     border: none;
+     height: 45px;
+     background-color: white;
+   }
+   .ser-in{
+     width: 90%;
+     outline: none;
+     padding:11px;
+     border: none;
+   }
+   .top-ser{
+      width: 100%; 
+      display: flex;
+      border:  solid 2px rgb(182, 182, 182);
+      height: 50px;
+   }
+   .isi{
+     cursor: pointer;
+     font-size: 13px;
+       color: rgb(107, 107, 107);
+   }
+   .cat{
+     padding: 0%;
+     margin: 0%;
+     color: rgb(255, 123, 0);
+     font-size: 17px; 
+   }
+   .beyousenior{
+     height: 900px;
+       width:25%;  
+       padding:40px;
+   }
+   .beyouseniors{
+     width: 75%;
+     padding: 20px;
+     height: 440px;
+   }
+   .down-contents{
+      width: 100%;
+      display: flex;
+      height: 600px;
+      background-color: rgb(255, 255, 255);
+   }
+   .post{
+     color: white;
+   }
+   .chine-text{
+     color: rgb(255, 123, 0);
+   }
+   .chine{
+     align-self: center;
+     width: 100%;
+      text-align: center;
+   }
+   .blog-top-div{
+     width: 100%;
+     background-blend-mode: multiply;
+     background-size: 100% 100%;
+     background-size: cover;
+     display: flex;
+     align-items: center;
+     background-color: rgba(0, 0, 0, 0.474);
+     height: 400px;
+     background-image: url("/asset/img/name.jpg");
+   }
+   .side-day{
+     display: none;
+   }
+   .down{
+     width: 200%;
+     height: 100px;
+     background-color: black;
+   }
+   .over-text{
+      font-size: 10px;
+   }
+   .over-btn{
+       background-color: black;
+       border: white  solid 2px;
+       height: 50px;
+       width: 100%;
+       border-radius: 5px;
+       color: white;
+       margin: auto;
+       margin-right: 60px;
+       -webkit-border-radius: 5px;
+       -moz-border-radius: 5px;
+       -ms-border-radius: 5px;
+       -o-border-radius: 5px;
+   }
+   .images{
+     width: 100%;
+     height: inherit;
+   }
+   .people-container:hover .overlays {
+     width: 100%;
+   }
+   .people-container{
+     border-radius: 10px;
+     height:250px;
+     position: relative;
+     width: 100%;
+   }
+   .overlays{
+     cursor: pointer;
+     position: absolute;
+     bottom: 0;
+     left: 0;
+     right: 0;
+     overflow: hidden;
+     background-color:rgba(255, 51, 0, 0.699)  ;
+     width: 0;
+     height: 100%;
+     transition: .5s ease;
+   }
+   .texts{
+     color: white;
+     font-size: 20px;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     -webkit-transform: translate(-50%, -50%);
+     -ms-transform: translate(-50%, -50%);
+     transform: translate(-50%, -50%);
+     white-space: nowrap;
+   }
+     .ikeohh{
+       width: 25%;
+       height: 400px;
+       display: none;
+       overflow: scroll;
+       background-color: rgba(0, 0, 0, 0.493);
+       padding: 10px;
+       margin: auto;
+     }
+     .ikeohh::-webkit-scrollbar{
+       display: none;
+     }
+   .baby{
+     width: 100%;
+   }
+   .baby:hover .ikeohh{
+     display: block;
+   }
+   .legit{
+     border-bottom: white solid 2px;
+   }
+   .hips{
+     text-align: center;
+     font-size: 20px;
+   }
+   .redme{
+     display: flex;
+     width: 98%;
+     justify-content: space-around;
+     margin: auto;
+     height: 410px;
+     margin-top: 5px;
+   }
+   .for-plan{
+     border-bottom: white solid 2px;
+   }
+   .keep-going{
+     text-align: center;
+     font-size: 20px;
+   }
+   .ontop{
+     width: 99%;
+     height: 530px;
+     display: none;
+     /* margin-top: -349px; */
+     margin-left: -2px;
+     background-image: url("/asset/img/we.jpg");
+     background-size: 100% 100%;
+     position: absolute;
+     background-blend-mode: multiply;
+     z-index: 10;
+     background-color: rgba(163, 36, 36, 0.795);
+   }
+   .hek{
+     width: 100%;
+     float: right;
+     text-align: right;
+     cursor: pointer;
+     color: white;
+   }
+   .hek:hover .ontop{
+     display: block;
+   }
+   .fuck{
+     display: none;;
+   }
+   .sidenav {
+     height: 980px;
+     position: fixed;
+     width: 0%;
+     z-index: 4;
+     top: 0;
+     left: 0;
+     background-color: rgba(255, 115, 0, 0.747);
+     overflow-x: hidden;
+     transition: 0.5s;
+     padding-top: 60px;
+     text-align:center;
+   }
+   
+   .sidenav a {
+     padding: 8px 8px 8px 32px;
+     text-decoration: none;
+     font-size: 25px;
+     color: #818181;
+     display: block;
+     transition: 0.3s
+   
+   }
+   .bro{
+     width: 100%;
+     height: inherit;
+     border: none;
+     outline: none;
+   }
+   .lome{
+     width: 30%;
+     border: none;
+     height: inherit;
+     background-color:rgb(255, 51, 0)  ;
+     color: white;
+   }
+   .tenton{
+     width: 70%;
+     height: inherit;
+   }
+   .every-body{
+     width: 100%;
+     display: flex;
+     height: 40px;
+     background-color: white;
+   }
+   .fast{
+     margin: 0%;
+     padding: 0%;
+     color: white;
+     font-size: 16px;
+   }
+   .fast:hover{
+     color: rgb(255, 123, 0);
+   }
+   .dones{
+     width: 30%;
+     height: inherit;
+     display: flex;
+     align-items: center;
+     padding: 10px;
+   }
+   .done{
+     width: 30%;
+     height: inherit;
+     padding: 10px;
+   }
+   .ste{
+     color: white;
+     font-size: 16px;
+   }
+   .ste:hover{
+     color: rgb(255, 123, 0);
+   }
+   .copy-son{
+     width: 30%;
+     padding: 10px;
+     height: inherit;
+   }
+   .copys{
+     display: flex;
+     text-align: center;
+     width: 70%;
+     height: 180px;
+     float: right;
+     margin-top: -120px;
+   }
+   .somethng{
+       display: none;
+   }
+  
+  .bobody{
+    margin: auto;
+    width: 98%;
+    margin-top:40px;
+  }
+   .lar{
+     margin: 0%;
+   }
+  .yion{
+    align-self: center;
+    text-align: center;
+    width:100%;
+  }
+  .main-run{
+    width: 28%;
+    height: inherit;
+    font-size: 12px;
+    cursor: pointer;
+    display: flex;
+    border: solid 2px rgb(179, 179, 179);
+  }
+  .run-one{
+    width: 100%;
+    height: 33px;
+    justify-content: space-between;
+    display: flex;
+  }
+  .run-ones{
+    width: 100%;
+    height: 33px;
+    justify-content: space-around;
+    display: flex;
+  }
+  .run-oness{
+    width: 100%;
+    height: 33px;
+    display: flex;
+  }
+  .guyrun{ 
+    width: 93%;  
+    padding: 10px;
+    margin-top: 10px; 
+  }
+  .shion{
+    width: 100%;
+     text-align: center;
+  }
+  .dred{
+    text-decoration: none;
+    color: #808080;
+    font-size: 15px;
+  } 
+  .lorr{  
+    color:black;
+     text-decoration: none;
+  }
+  .lorr:hover{
+      border-bottom: rgb(94, 94, 94) solid 1px;
+  } 
+  .slem{
+    width: 100%; 
+  }
+  .covesrs{    
+      margin-top:17px; 
+      font-size: 14px;
+  }
+  .stream{
+    color: white;  
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0%;
+    font-size: 25px;
+  }
+  .top-navs{
+    width: 100%;
+    padding: 20px;
+    height: 150px;
+    position: fixed;
+    background-color: black;
+  }
+  .letmeget-you{
+        width: 100%;
+        height: 70px; 
+        align-items: center;
+        display: flex;
+  }
+  .stop-were{
+    justify-content: space-around;
+    width: 65%;
+    align-items: center;
+    display: flex;
+    height: inherit; 
+  }
+  .slower{
+     color: rgb(255, 255, 255);
+     font-size: 22px;
+  }
+  .slower:hover{
+     border-bottom: white solid 5px;
+  }
+  .wining{
+     width: 28%;
+     height: 45px;
+     justify-content: space-between;
+     display: flex;
+  }
+  .whatyousay{
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    width: 70%;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+  }
+  .gothere{
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    width: 20%;
+  }
+  .plore{
+    font-size: 11px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border: none;
+  }
+  .invest{
+      font-size: 12px;
+  }
+  .nomater{
+      width:35%;
+      padding: 9px;
+      align-items: center;
+      height: 30px;
+      justify-content: space-between;
+      margin: auto;
+      display: flex; 
+  }
+  .ones{
+    cursor: pointer;
+    background-color: white;
+     border: rgb(169, 169, 169) solid 2px;
+  }
+  .twos{
+     border: none;
+     cursor: pointer;
+  }
+  .threes{
+    border: none;
+    cursor: pointer;
+  }
+  .cofi{
+    width: 100%; 
+    font-family: "Notosanslight";
+    color: rgb(136, 136, 136);
+    text-align: center;
+  }  
+  .hood-them{
+    width: 50%;
+    margin-top: 6px;
+    height: 779px;
+    overflow: scroll; 
+  }
+  .hood-them::-webkit-scrollbar{
+    display: none;
+  }
+  .embed{ 
+    width:110%;
+    height: 230px;
+  }
+  .alai{
+    width: 100%;
+    height: inherit;
+  }
+  .foot-sub{
+    margin: auto;
+    width: 110%;
+    padding: 12px;
+    height: 302px; 
+  }
+  .cribe{
+    margin: 0%;
+    color: red;
+    font-size: 18px;
+    text-align: center;
+  }
+  .notify{
+     width: 100%;
+     padding: 10px;
+     border-radius: 10px;
+     -webkit-border-radius: 10px;
+     outline: none;
+     -moz-border-radius: 10px;
+     margin-top: 10px;
+     border: rgb(202, 202, 202) solid 2px;
+     -ms-border-radius: 10px;
+     -o-border-radius: 10px;
+  }
+  .sub-btn{
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+     float: right;
+     height: 29px;
+     margin-top: 10px;
+     width: 25%;
+  }.baby-chide{
+    margin: auto;
+    width:19%;
+    display: flex;
+    border-radius:5px;
+    height:35px;
+    background-color: black;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    -ms-border-radius:5px;
+    -o-border-radius:5px;
+  } 
+  .look{
+    width: 100%;
+    font-size: 13px;
+      color: white;
+      align-self: center;
+      text-align: center;
+  }
+  .moniwa{
+     font-size:11px;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  @media (max-width:320px){  
+    .weno{
+      display: block;
+    } 
+    .mobuy{
+      width: 110%;
+      display: block; 
+    }
+    .mobe-post{
+      width: 105%;
+      display: block;
+      height: 400px;
+      margin: auto;
+    }
+    .mylife{
+      width: 110%;
+    }
+    .bee{
+      display: block;
+    }
+    .blow{
+      display: none;
+    }
+    .baby-chide{
+      margin: auto;
+      width: 45%;
+      display: flex;
+      border-radius:5px;
+      height:40px;
+      background-color: black;
+      -webkit-border-radius:5px;
+      -moz-border-radius:5px;
+      -ms-border-radius:5px;
+      -o-border-radius:5px;
+   }
+    .stream{  
+      font-size: 15px;
+      margin-left: 14px;
+      font-family: "Notosansregular";
+    }
+  
+    .top-navs{ 
+      height:110px;
+      padding: 5px;
+      width: 100%;
+    }
+    .letmeget-you{
+      width: 100%;
+      justify-content: space-between;
+      display: block;  
+    }
+    .stop-were{
+      margin-top: 15px;
+      width: 100%; 
+    }
+    .wining{ 
+      margin-top: 0px; 
+      z-index: -10;
+      height:70px; 
+      align-items: center;
+      position: static;
+      width: 100%; 
+    }
+    .whatyousay{
+      height: 50px;
+      border: rgb(208, 208, 208) solid 2px;
+        width: 70%;
+    }
+    .gothere{
+      height: 50px;
+      border: rgb(208, 208, 208) solid 2px;
+        width: 20%;
+    }
+    .allcontain{ 
+      display: block;
+      margin-top: 30px;
+    }
+    .recenteda{
+      width: 100%;
+    }
+    .recent{
+      display: none;
+      width: 100%;
+    }
+    .first-container{
+      width: 100%; 
+    }
+    .hood-them{
+      width: 100%;
+      padding: 6px;
+    }
+    .nomater{
+      width: 60%; 
+    }
+    .wami{ 
+      width: 40px;
+      margin-left: -20px;
+      font-size:8px;
+    }
+    .allto{
+      width:60%; 
+    }
+    .sbu-img{
+      width: 30%;
+    }  
+    .feet{
+        width: 100%;
+        color: rgb(255, 255, 255);
+        animation-name: oreke;
+        animation-duration: 8s;
+        visibility: hidden;
+        font-size: 20px; 
+    }
+    @keyframes oreke{
+        10%{
+           margin-left:30px;
+        }
+        20%{
+            visibility: visible;
+        }
+    } 
+    .rem{
+        color: white;
+        animation-name: love;
+        animation-duration: 8s;
+        margin-top: 10px;
+        font-size: 10px;
+        visibility: hidden; 
+    }
+    @keyframes love{
+       10%{
+           margin-left:50px;
+       }
+       20%{
+           visibility: visible;
+       }
+    } 
+    .now{ 
+        border: none;
+        color: white; 
+        height:35px;
+          margin-top:-424px; 
+           width: 40%;
+        border-radius: 5px;
+        padding: 5px;
+        -webkit-border-radius: 5px;
+        background-color: rgb(255, 72, 0);
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+        animation-name: rane;
+        visibility: hidden;
+        animation-duration: 8s;
+    }
+    @keyframes rane{
+             10%{
+    
+                margin-left:70px;
+             } 
+       30%{
+           visibility: visible;
+       }
+    }
+    .pointer{
+      margin-top:-143px;
+    }
+    .yaahh{
+      font-size: 25px;
+    } 
+    .showimg{
+      margin-top: -110px;
+      width: 29%; 
+    }
+    .feets{
+        color:  rgb(255, 255, 255);
+        animation-name: this;
+        margin-top: -160px;
+        font-size: 20px;
+        visibility: hidden;
+        animation-delay:10s;
+        animation-duration: 8s;
+    }
+    @keyframes this{
+        10%{
+            margin-left:52px;
+        } 
+        30%{
+            visibility: visible;
+        }
+    }
+  
+  .rems{
+    color: white;
+    visibility: hidden;
+    animation-name: child;
+    margin-top: 430px;
+    margin: 0%;
+    animation-delay: 10s;
+    font-size: 10px;
+    animation-duration: 8s;
+  }
+  
+  @keyframes child{
+    10%{
+        margin-left: 60px;
+    } 30%{
+        visibility: visible;
+    }
+  }
+  
+  .nows{
+    width: 40%;
+    color: white;
+    background-color: rgb(0, 102, 255);
+    border: none;
+    border-radius   : 5px;
+    padding: 10px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    margin-top:10px;
+    visibility: hidden;
+    -o-border-radius: 5px;
+    animation-name: lost;
+    animation-duration: 8s;
+    animation-delay: 10s;
+  }
+  @keyframes lost{
+      10%{
+        margin-left: 82px;
+      } 30%{
+        visibility: visible;
+    }
+  } 
+  .feetss{
+      color: white;
+      margin-top: -95px;
+      animation-delay: 18s;
+      visibility: hidden;
+      font-size: 20px;
+      animation-name: boy;
+      animation-duration:3998348s;
+  }
+  @keyframes boy{
+      10%{
+          visibility: visible;
+      }
+  }
+  .nowss{
+     width: 40%;
+  }
+  .foot-sub{
+     height: fit-content;
+  }
+  .foot-foter{
+    align-items: center;
+    display: flex;
+      width: 100%;
+      justify-content: space-around;
+      height: 80px;
+      background-color: #000000;
+  }
+  .meho{
+    text-decoration: none;
+    font-size: 14px;
+    color: white;
+  }
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  @media (max-width:375px){ 
+    .weno{
+      display: block;
+    } 
+    .mobuy{ 
+      display: block;
+    }
+    .mobe-post{
+      display: block;
+    }
+    .bee{
+      display: block;
+    }
+    .baby-chide{
+    margin: auto;
+    width: 45%;
+    display: flex;
+    border-radius:5px;
+    height:40px;
+    background-color: black;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    -ms-border-radius:5px;
+    -o-border-radius:5px;
+  }
+    .stream{  
+      font-size: 15px;
+      margin-left: 14px;
+      font-family: "Notosansregular";
+    }
+  
+    .top-navs{ 
+      height:110px;
+      padding: 5px;
+      width: 100%;
+    }
+    .letmeget-you{
+      width: 100%;
+      justify-content: space-between;
+      display: block;  
+    }
+    .stop-were{
+      margin-top: 15px;
+      width: 100%; 
+    }
+    .wining{ 
+      margin-top: 0px; 
+      z-index: -10;
+      height:70px; 
+      align-items: center;
+      position: static;
+      width: 100%; 
+    }
+    .whatyousay{
+      height: 50px;
+      border: rgb(208, 208, 208) solid 2px;
+        width: 70%;
+    }
+    .gothere{
+      height: 50px;
+      border: rgb(208, 208, 208) solid 2px;
+        width: 20%;
+    }
+    .allcontain{ 
+      display: block;
+      margin-top: 30px;
+    }
+    .recenteda{
+      width: 100%;
+    }
+    .recent{
+      display: none;
+      width: 100%;
+    }
+    .first-container{
+      width: 100%; 
+    }
+    .hood-them{
+      width: 100%;
+      padding: 6px;
+    }
+    .nomater{
+      width: 60%; 
+    }
+    .wami{ 
+      width: 40px;
+      margin-left: -20px;
+      font-size:8px;
+    }
+    .allto{
+      width:60%; 
+    }
+    .sbu-img{
+      width: 30%;
+    } 
+    .omogi{
+      margin-top: 30px;
+    } 
+    .feet{
+        width: 100%;
+        color: rgb(255, 255, 255);
+        animation-name: oreke;
+        animation-duration: 8s;
+        visibility: hidden;
+        font-size: 20px; 
+    }
+    @keyframes oreke{
+        10%{
+           margin-left:30px;
+        }
+        20%{
+            visibility: visible;
+        }
+    } 
+    .rem{
+        color: white;
+        animation-name: love;
+        animation-duration: 8s;
+        font-size: 10px;
+        visibility: hidden; 
+    }
+    @keyframes love{
+       10%{
+           margin-left:50px;
+       }
+       20%{
+           visibility: visible;
+       }
+    } 
+    .now{ 
+        border: none;
+        color: white; 
+        height:35px;
+          margin-top:10px; 
+           width: 40%;
+        border-radius: 5px;
+        padding: 5px;
+        -webkit-border-radius: 5px;
+        background-color: rgb(255, 72, 0);
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+        animation-name: rane;
+        visibility: hidden;
+        animation-duration: 8s;
+    }
+    @keyframes rane{
+             10%{
+    
+                margin-left:70px;
+             } 
+       30%{
+           visibility: visible;
+       }
+    }
+    .pointer{
+      margin-top:-143px;
+    }
+    .yaahh{
+      font-size: 25px;
+    } 
+    .showimg{
+      width: 29%; 
+    }
+    .feets{
+        color:  rgb(255, 255, 255);
+        animation-name: this;
+        margin-top: -160px;
+        font-size: 20px;
+        visibility: hidden;
+        animation-delay:10s;
+        animation-duration: 8s;
+    }
+    @keyframes this{
+        10%{
+            margin-left:52px;
+        } 
+        30%{
+            visibility: visible;
+        }
+    }
+  
+  .rems{
+    color: white;
+    visibility: hidden;
+    animation-name: child;
+    margin-top: 430px;
+    margin: 0%;
+    animation-delay: 10s;
+    font-size: 10px;
+    animation-duration: 8s;
+  }
+  
+  @keyframes child{
+    10%{
+        margin-left: 60px;
+    } 30%{
+        visibility: visible;
+    }
+  }
+  
+  .nows{
+    width: 40%;
+    color: white;
+    background-color: rgb(0, 102, 255);
+    border: none;
+    border-radius   : 5px;
+    padding: 10px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    margin-top:10px;
+    visibility: hidden;
+    -o-border-radius: 5px;
+    animation-name: lost;
+    animation-duration: 8s;
+    animation-delay: 10s;
+  }
+  @keyframes lost{
+      10%{
+        margin-left: 82px;
+      } 30%{
+        visibility: visible;
+    }
+  }
+  .last{
+    margin-top: -251px; 
+  }
+  .feetss{
+      color: white;
+      margin-top: -95px;
+      animation-delay: 18s;
+      visibility: hidden;
+      font-size: 20px;
+      animation-name: boy;
+      animation-duration:3998348s;
+  }
+  @keyframes boy{
+      10%{
+          visibility: visible;
+      }
+  }
+  .nowss{
+     width: 40%;
+  }
+  .foot-sub{
+     height: fit-content;
+  }
+  .foot-foter{
+    align-items: center;
+    display: flex;
+      width: 100%;
+      justify-content: space-around;
+      height: 80px;
+      background-color: #000000;
+  }
+  .meho{
+    text-decoration: none;
+    color: white;
+  }
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  @media (max-width:425px){ 
+    .weno{
+      display: block;
+    } 
+    .mobuy{ 
+      display: block;
+    }
+    .bee{
+      display: block;
+    }
+    .baby-chide{
+    margin: auto;
+    width: 45%;
+    display: flex;
+    border-radius:5px;
+    height:40px;
+    background-color: black;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    -ms-border-radius:5px;
+    -o-border-radius:5px;
+  }
+    .stream{  
+      font-size: 15px;
+      margin-left: 14px;
+      font-family: "Notosansregular";
+    }
+  
+    .top-navs{ 
+      height:110px;
+      padding: 5px;
+      width: 100%;
+    }
+    .letmeget-you{
+      width: 100%;
+      justify-content: space-between;
+      display: block;  
+    }
+    .stop-were{
+      margin-top: 15px;
+      width: 100%; 
+    }
+    .wining{ 
+      margin-top: 0px; 
+      z-index: -10;
+      height:70px; 
+      align-items: center;
+      position: static;
+      width: 100%; 
+    }
+    .whatyousay{
+      height: 50px;
+      border: rgb(208, 208, 208) solid 2px;
+        width: 70%;
+    }
+    .gothere{
+      height: 50px;
+      border: rgb(208, 208, 208) solid 2px;
+        width: 20%;
+    }
+    .allcontain{ 
+      display: block;
+      margin-top: 30px;
+    }
+    .recenteda{
+      width: 100%;
+    }
+    .recent{
+      display: none;
+      width: 100%;
+    }
+    .first-container{
+      width: 100%; 
+    }
+    .hood-them{
+      width: 100%;
+      padding: 6px;
+    }
+    .nomater{
+      width: 60%; 
+    }
+    .wami{ 
+      width: 40px;
+      margin-left: -20px;
+      font-size:8px;
+    }
+    .allto{
+      width:60%; 
+    }
+    .sbu-img{
+      width: 30%;
+    } 
+    .omogi{
+      margin-top: 30px;
+    } 
+    .feet{
+        width: 100%;
+        color: rgb(255, 255, 255);
+        animation-name: oreke;
+        animation-duration: 8s;
+        visibility: hidden;
+        font-size: 20px; 
+    }
+    @keyframes oreke{
+        10%{
+           margin-left:30px;
+        }
+        20%{
+            visibility: visible;
+        }
+    } 
+    .rem{
+        color: white;
+        animation-name: love;
+        animation-duration: 8s;
+        font-size: 10px;
+        visibility: hidden; 
+    }
+    @keyframes love{
+       10%{
+           margin-left:50px;
+       }
+       20%{
+           visibility: visible;
+       }
+    } 
+    .now{ 
+        border: none;
+        color: white; 
+        height:35px;
+          margin-top:10px; 
+           width: 40%;
+        border-radius: 5px;
+        padding: 5px;
+        -webkit-border-radius: 5px;
+        background-color: rgb(255, 72, 0);
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+        animation-name: rane;
+        visibility: hidden;
+        animation-duration: 8s;
+    }
+    @keyframes rane{
+             10%{
+    
+                margin-left:70px;
+             } 
+       30%{
+           visibility: visible;
+       }
+    }
+    .pointer{
+      margin-top:-143px;
+    }
+    .yaahh{
+      font-size: 25px;
+    } 
+    .showimg{
+      width: 29%; 
+    }
+    .feets{
+        color:  rgb(255, 255, 255);
+        animation-name: this;
+        margin-top: -160px;
+        font-size: 20px;
+        visibility: hidden;
+        animation-delay:10s;
+        animation-duration: 8s;
+    }
+    @keyframes this{
+        10%{
+            margin-left:52px;
+        } 
+        30%{
+            visibility: visible;
+        }
+    }
+  
+  .rems{
+    color: white;
+    visibility: hidden;
+    animation-name: child;
+    margin-top: 430px;
+    margin: 0%;
+    animation-delay: 10s;
+    font-size: 10px;
+    animation-duration: 8s;
+  }
+  
+  @keyframes child{
+    10%{
+        margin-left: 60px;
+    } 30%{
+        visibility: visible;
+    }
+  }
+  
+  .nows{
+    width: 40%;
+    color: white;
+    background-color: rgb(0, 102, 255);
+    border: none;
+    border-radius   : 5px;
+    padding: 10px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    margin-top:10px;
+    visibility: hidden;
+    -o-border-radius: 5px;
+    animation-name: lost;
+    animation-duration: 8s;
+    animation-delay: 10s;
+  }
+  @keyframes lost{
+      10%{
+        margin-left: 82px;
+      } 30%{
+        visibility: visible;
+    }
+  }
+  .last{
+    margin-top: -251px; 
+  }
+  .feetss{
+      color: white;
+      margin-top: -95px;
+      animation-delay: 18s;
+      visibility: hidden;
+      font-size: 20px;
+      animation-name: boy;
+      animation-duration:3998348s;
+  }
+  @keyframes boy{
+      10%{
+          visibility: visible;
+      }
+  }
+  .nowss{
+     width: 40%;
+  }
+  .foot-sub{
+     height: fit-content;
+  }
+  .foot-foter{
+    align-items: center;
+    display: flex;
+      width: 100%;
+      justify-content: space-around;
+      height: 80px;
+      background-color: #000000;
+  }
+  .meho{
+    text-decoration: none;
+    color: white;
+  }
+  }
+  

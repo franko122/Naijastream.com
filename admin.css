@@ -21,6 +21,12 @@
     src: url(../fonts/Noto_Sans_JP/NotoSansJP-Black.otf);
     font-family: "NotosansBlack";
   }
+  .add{
+      font-size: 12px;
+  }
+  .first-mobile{
+      display: none;
+  }
   .totals{
       margin-top:22px;
     font-size: 16px;
@@ -98,9 +104,9 @@ color: rgb(255, 255, 255);
     opacity: 1;
 }
 .right{
-    width: 25%;
-    height: 1080px;
-    background-color: rgb(9, 24, 56);
+    height: 1180px;
+    width: 25%; 
+    background-color: rgb(0, 0, 0);
 }
 .day-img{
     cursor: pointer;
@@ -229,7 +235,7 @@ color: rgb(255, 255, 255);
     padding: 5px;
 }
 .add-div:hover{
-    background-color: rgb(29, 43, 73) ;
+    background-color: rgb(17, 17, 17) ;
     margin-left: 20px;
     transition: 1s;
     -webkit-transition: 1s;
@@ -249,7 +255,7 @@ a{
 .down{
     width: 80%;
     height: 50px;
-    background-color: rgb(29, 43, 73) ;
+    background-color: rgb(0, 0, 0) ;
     border-radius: 10px;
     margin: auto;
     -webkit-border-radius: 10px;
@@ -276,7 +282,7 @@ a{
 .top{
     width:100%;
     height:69px;
-    background-color: rgb(20, 38, 78);
+    background-color: rgb(0, 0, 0);
 }
 .all-container{
     margin-top: -930px;
@@ -311,7 +317,7 @@ a{
     display: flex;
     width: 20%;
     height: 50px;
-    background-color: rgb(20, 38, 78);
+    background-color: rgb(0, 0, 0);
     border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
@@ -401,6 +407,7 @@ a{
     align-self: center;
     border-radius: 10px;
     -webkit-border-radius: 10px;
+    z-index: -22;
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
@@ -504,7 +511,7 @@ html {
     font-size:20px;
   }
   body {
-    font-family: 'Delius Unicase', cursive;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   }
   
   .container {
@@ -711,30 +718,20 @@ margin-right: 5px;
 }
 .sprite{
     display: flex;
+    padding: 10px; 
+    align-items: center;
     width: 100%;
+    
+    margin-top:90px;
     height:50px;
 }
 .sugar{
+    background-color: red;
     align-self: center;
-    width: 60%;
-    height:20px;
-    margin: auto;
-}
-.suger{
-    padding: 5px;
-    width: 95%;
-    height: 23px;
-    border: solid rgb(194, 194, 194) 2px;
-    border-radius: 10000px;
-    -webkit-border-radius: 10000px;
-    -moz-border-radius: 10000px;
-    -ms-border-radius: 10000px;
-    -o-border-radius: 10000px;
-    outline: none;
-}
-
-
-  
+    display: flex;
+    width: 100%;
+    height:20px; 
+} 
 .logo-holder {
     width:100%;
     height:160px;
@@ -782,7 +779,8 @@ margin-right: 5px;
 
 
 .bar.fill4 {
-   animation:  fill-4 5s infinite alternate, colors 5s infinite alternate;
+   animation:  fill-4 4s infinite alternate, colors 5s infinite alternate;
+   -webkit-animation:  fill-4 4s infinite alternate, colors 5s infinite alternate;
 }
 
 .bar.fill5 {
@@ -796,10 +794,10 @@ margin-right: 5px;
 
 
 @keyframes fill {
-  0%   { width: 0; }
-  33%  { width: 30px;}
-  66%  { width: 10px;}
-  100% { width: 105px; }
+  0%   { width: 30; }
+  33%  { width: 1px;}
+  66%  { width: 40px;}
+  100% { width: 205px; }
 }
 
 @keyframes fill-1 {
@@ -1014,12 +1012,7 @@ color: rgb(255, 255, 255);
     height: 930px;
     display: flex;
     opacity: 1;
-}
-.right{
-    width: 25%;
-    height: 1080px;
-    background-color: rgb(9, 24, 56);
-}
+} 
 .day-img{
     cursor: pointer;
     width: 100%;
@@ -1147,7 +1140,7 @@ color: rgb(255, 255, 255);
     padding: 5px;
 }
 .add-div:hover{
-    background-color: rgb(29, 43, 73) ;
+    background-color: rgb(31, 30, 30) ;
     margin-left: 20px;
     transition: 1s;
     -webkit-transition: 1s;
@@ -1167,11 +1160,12 @@ a{
 .down{
     width: 80%;
     height: 50px;
-    background-color: rgb(29, 43, 73) ;
+    background-color: rgb(26, 26, 26) ;
     border-radius: 10px;
     margin: auto;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
+    margin-top: -10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
     display: flex;
@@ -1194,12 +1188,13 @@ a{
 .top{
     width:100%;
     height:69px;
-    background-color: rgb(20, 38, 78);
+    background-color: rgb(0, 0, 0);
 }
 .all-container{
     margin-top: -930px;
     width: 100%;
     margin-left: 309px;
+    background-color: white;
 }
 .sliding-div{
     width: 100%;
@@ -1229,7 +1224,7 @@ a{
     display: flex;
     width: 20%;
     height: 50px;
-    background-color: rgb(20, 38, 78);
+    background-color: rgb(0, 0, 0);
     border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
@@ -1252,7 +1247,7 @@ a{
 .counting{
     width: 100%;
     height: 300px;
-    background-color: rgb(247, 247, 247);
+    background-color: white;
     margin-top: 30px;
     display: flex;
     justify-content: space-around;
@@ -1422,7 +1417,7 @@ html {
     font-size:20px;
   }
   body {
-    font-family: 'Delius Unicase', cursive;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   }
   
   .container {
@@ -1768,4 +1763,308 @@ margin-right: 5px;
   50% { background-color: #3a3;}
   100% { background-color: #6a6a6a;}
 }
+}
+.epic{
+    width: 100%;
+    height: 927px; 
+}
+.spmethings{ 
+    border: rgb(189, 189, 189) solid 2px;
+    margin-top: 62px;
+    align-self: center;
+    border-radius: 10px;
+    outline: none;
+    width:70%;
+    -webkit-border-radius: 10px;
+    padding: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+} 
+.gabs{
+    float: right;
+    cursor: pointer;
+    margin-left: 12px; 
+    margin-top: 62px;
+    color: rgb(0, 38, 255);
+}
+
+.mobile-first{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:425px){
+     .epic{
+         display: none;
+     } 
+     .mobile-first{
+       width: 98%;   
+       display: block;
+       color: black;
+    }
+    .top-first-nav{
+        width: 95.3%;
+        height:50px;
+        align-items: center;
+        color: rgb(255, 255, 255);
+        margin: auto;
+        background-color: rgb(0, 0, 0);
+        justify-content: space-between; 
+        padding: 10px;
+        display: flex; 
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .mobe-circle{
+        width:15%;
+        border-radius: 1000px;
+        height: 45px;
+        background-color: white;
+        -webkit-border-radius: 1000px;
+        -moz-border-radius: 1000px;
+        -ms-border-radius: 1000px;
+        -o-border-radius: 1000px;
+             }
+        .viewer{
+            text-align: center;
+            color: rgb(112, 112, 112);
+            padding: 5px;
+            font-size: 12px;
+        }
+        .yokun{
+            width: 100%;
+            height: inherit;
+            border-radius: 100000px;
+            -webkit-border-radius: 100000px;
+            -moz-border-radius: 100000px;
+            -ms-border-radius: 100000px;
+            -o-border-radius: 100000px;
+}
+.com{
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+}
+.doomed{ 
+    margin: auto;
+    width: 98%;    
+}
+.top-white{
+    width: 100%;
+    position: fixed;
+    background-color: white;
+}
+.wething{ 
+    width: 98.5%;   
+    display: flex; 
+    padding: 5px;
+}
+.mobead-pic{ 
+    width: 28%;
+    border-radius: 1000px;
+    height: 90px; 
+    -webkit-border-radius: 1000px;
+    -moz-border-radius: 1000px;
+    -ms-border-radius: 1000px;
+    -o-border-radius: 1000px;
+}
+.dow-pic{
+    width: 100%;
+    border-radius: 10000px;
+    height: inherit;
+    -webkit-border-radius: 10000px;
+    -moz-border-radius: 10000px;
+    -ms-border-radius: 10000px;
+    -o-border-radius: 10000px;
+}
+.list-div{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 70%; 
+    height: 60px;  
+}
+p{ 
+    font-size:10px;
+    width: 30%; 
+    color: rgb(121, 121, 121);
+}
+.ofyour{
+    margin-top: -45px;
+    width: 23%; 
+    float: right;
+    display: flex;
+    align-items: center;
+    height: 40px;  
+    border-right: rgb(0, 0, 0) solid 2px ;
+    border-left: rgb(0, 0, 0) solid 2px ;
+}
+.folloij{
+    width: 100%;
+    color: rgb(12, 12, 12);
+    text-align: center;  
+}
+.oyatake{ 
+    margin-left: 3px;
+    margin-top: 10px;
+    width: 100%;  
+}
+.first-take{
+    width: 100%;
+    height: 45px;
+    justify-content: space-around;
+    display: flex; 
+}
+.wiker{
+  width: 25%;
+  color: white;
+  align-items: center;
+  font-size: 12px;
+  display: flex;
+  text-align: center;
+  border-radius: 10px;
+  height: inherit;
+  background-color: rgb(0, 0, 0);
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.calm{
+    width: 100%;
+} 
+.count-one{ 
+    margin: auto;   
+    width: 70%;
+}
+.total{
+    font-size: 14px;
+    width: 100%;
+    text-align: center; 
+}
+.num{
+    width: 100%;
+    text-align: center; 
+}
+.divide{
+    margin: auto;
+    width: 70%;
+    z-index: -81;
+    height: 280px;
+    transform: rotate(270deg);  
+    align-items: center;
+    display: flex; 
+} 
+.divided{
+    padding: 10px;
+    width: 73%;
+    margin: auto;
+}
+.divides{
+    width: 85%;
+    margin: auto;
+}
+.add-diver{
+    margin-left:-15px;
+    color: white;
+    width:95%;
+    border-radius: 10px;
+    background-color: rgb(28, 28, 28);
+    padding: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.adder{ 
+    color: white;
+    width: 100%; 
+    text-align: left;
+}
+.spreys{
+    width: 100%;
+    height: 270px;
+    overflow: scroll;
+    margin-top: 25px;  
+}
+.down{
+    width: 95%;
+     background-color: rgb(0, 0, 0);
+  } 
+  .yesowa{ 
+      background-color: red; 
+      align-self: center; 
+      width: 100%;
+      text-align: center;
+  }
+  .yeso{
+      font-size: 19px;
+  }
 }

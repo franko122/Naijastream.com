@@ -86,7 +86,17 @@ body{
 .wraper::-webkit-scrollbar{
     display: none;
 }
-
+.back{
+    padding: 6px;
+    width: 100%; 
+    display: flex;
+    align-items: center; 
+    cursor: pointer;
+    color:gray; 
+    font-size: 40px;
+}   a{
+    text-decoration: none;
+}
 @media (max-width: 320px) {
     .first-album{
         margin: auto;
@@ -112,3 +122,64 @@ body{
         margin-top: -20px;
     }
 }
+
+@media (max-width: 375px) {
+    .first-album{
+        margin: auto;
+        width: 80%;
+    }
+    .wraper{
+        width: 140%;
+        margin-left: -55px;
+    }
+    .name{
+        font-size: 11px;
+    }
+    .idr{
+        font-size: 11px;
+    }
+    .image{
+        width: 70%;
+    }
+    .images{
+        height: 110px;
+    }
+    .bum{
+        margin-top: -20px;
+    }
+}
+
+
+
+
+
+
+
+
+@media (max-width: 425px) {
+    .first-album{
+        margin: auto;
+        width: 80%;
+    }
+    .wraper{
+        width: 140%;
+        margin-left: -55px;
+    }
+    .name{
+        font-size: 11px;
+    }
+    .idr{
+        font-size: 11px;
+    }
+    .image{
+        width: 70%;
+    }
+    .images{
+        height: 110px;
+    }
+    .bum{
+        margin-top: -20px;
+    }
+}
+
+

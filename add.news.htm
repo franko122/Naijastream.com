@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Add-video</title>
+    <title>Upload new</title>
     <link rel="stylesheet" href="add.css">
 
   <link rel="icon" type="image/png" href="./assets/img/me.jpg" sizes="16x16">
@@ -14,26 +14,15 @@
     <form action="">
         <div class="container">
           <p style="text-align: center">News-image</p>
-          <div class="image">
-            <input type="file" name="" id="" />
+          <div class="upkol">
+            <p><input type="file"  accept="image/*" name="image" id="file"  onchange="loadFile(event)" style="display: none;"></p>
+            <p class="koload"><label for="file" style="cursor: pointer;">Upload Image</label></p>
+            <p><img id="output" width="200" /></p>
           </div>
           <h3 class="art">Name of news</h3>
           <input type="text" class="put"  required/>
-          <h3 class="art">Date</h3>
-          <input type="date" required placeholder="date" class="put" />
-          <br />
-          <br />
-          <h3 class="art">Place</h3>
-          <select name="" id="" class="put">
-            <option value="">Bussiness</option>
-            <option value="">Music</option>
-            <option value="">News</option>
-            <option value="">video</option>
-            <option value="">Top</option>
-          </select>
-          <br />
-          <br />
-          <br />
+          <br />  <br />  <br /> 
+          <h3 class="art">Put your news here</h3>
           <textarea
             name=""
             id=""
@@ -42,11 +31,13 @@
             placeholder="describe"
             class="put"
           ></textarea>
-  
+          <h3 class="art">Date</h3>
+          <input type="date" required placeholder="date" class="put" />
           <div class="right-btn">
             <button class="lish"> Publish</button>
           </div>
         </div>
       </form>
+      <script src="./show.js"></script>
 </body>
 </html>

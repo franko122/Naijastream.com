@@ -1,5 +1,5 @@
-
-            session_write_close();
+<?php 
+  session_write_close();
             header("location: member-index.html");
             exit();
         }else {
@@ -7,7 +7,7 @@
             header("location: login-failed.php");
             exit();
         }
-    }else {<?php
+    }else {
     //Start session
     session_start();
 

@@ -13,30 +13,14 @@
     <form action="">
       <div class="container">
         <p style="text-align: center">Bussiness-Image</p>
-        <div class="image">
-          <input type="file" name="" id="" />
+        <div class="upkol">
+          <p><input type="file"  accept="image/*" name="image" id="file"  onchange="loadFile(event)" style="display: none;"></p>
+          <p class="koload"><label for="file" style="cursor: pointer;">Upload Image</label></p>
+          <p><img id="output" width="200" /></p>
         </div>
-        <h3 class="art">Name of an artist</h3>
+        <h3 class="art">web link </h3>
         <input type="text" class="put"  required/>
-        <h3 class="art"> Name of music</h3>
-        <input type="text" class="put" required />
-
-        <h3 class="art">Music</h3>
-        <input type="file" class="put" required />
-        <br /><br />
-        <input type="date" required placeholder="date" class="put" />
-        <br />
-        <br />
-        <select name="" id="" class="put">
-          <option value="">Bussiness</option>
-          <option value="">Music</option>
-          <option value="">News</option>
-          <option value="">video</option>
-          <option value="">Top</option>
-        </select>
-        <br />
-        <br />
-        <br />
+        <h3 class="art"> Discribe web </h3> 
         <textarea
           name=""
           id=""
@@ -51,5 +35,6 @@
         </div>
       </div>
     </form>
+    <script src="./show.js"></script>
   </body>
 </html>
