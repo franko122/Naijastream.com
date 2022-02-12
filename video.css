@@ -30,6 +30,11 @@ body{
       src: url(./assets/fonts/Noto_Sans_JP/NotoSansJP-Black.otf);
       font-family: "NotosansBlack";
     }
+    .slowering{
+      color: white;
+      font-size: 22px;
+      border-bottom: solid white 4px;
+    }
     .mylife{
       display: none;
     }

@@ -21,7 +21,18 @@
 @font-face {
   src: url(../fonts/Noto_Sans_JP/NotoSansJP-Black.otf);
   font-family: "NotosansBlack";
-} 
+}
+.shenopib{
+    display: none;
+}
+.reper{
+   color: white;
+}
+.slowcon{
+   color: white;
+   font-size: 22px;
+   border-bottom: solid  white 4px;
+}
 .tofg{
   color: white;
 }
@@ -1196,6 +1207,8 @@ color: white;
 }
 .sounded{
    color: red;   
+   cursor: pointer;
+   border-bottom: red solid 2px;
   font-family: "NotosansLight";
 }
 .comodo{
@@ -1914,14 +1927,17 @@ color: black;
   font-size: 22px;
   color: rgb(255, 255, 255);
 }
+.slowone{
+  cursor: pointer;
+  font-size: 22px;
+  color: rgb(255, 255, 255);
+  border-bottom: solid 4px white;
+  color: rgb(255, 255, 255);
+}
 .slow:hover {
   color: rgb(255, 255, 255);
   border-bottom: solid 4px white;
-}
-.slow:visited {
-  color: red;
-  background-color: black;
-}
+} 
 .fresher {
   margin-top: -145px;
   margin-right: 9px;
@@ -3749,12 +3765,9 @@ margin: auto;
   }
   .rema {
     width: 100%;
-  }
-  .oya {
-    width:60%;
-  }
+  } 
   .sounded{
-
+    border-bottom: none;
   font-family: "Notosanslight";
     color: rgb(255, 0, 0);
     width: 100%;
@@ -4587,12 +4600,8 @@ margin: auto;
   }
   .rema {
     width: 100%;
-  }
-  .oya {
-    width:60%;
-  }
-  .sounded{
-
+  } 
+  .sounded{ 
   font-family: "Notosanslight";
     color: rgb(255, 0, 0);
     width: 100%;
@@ -4720,6 +4729,9 @@ margin: auto;
 
 
 @media (max-width:425px) {
+  .shenopib{
+    display: block;
+  }
   .reserve{
      font-size: 11px;
   }
@@ -5629,16 +5641,16 @@ margin: auto;
   .rema {
     width: 100%;
   }
-  .oya {
-    width: 200%;
-    font-size: 11px; 
-    margin-right: 30px;
+  .oya { 
+    font-size: 11px;  
+    float: right;
+    border-bottom: green solid 2px;
   }
   .sounded{
-
-  font-family: "Notosanslight";
+    border: none;
+    font-family: "Notosanslight";
     color: rgb(255, 0, 0);
-    width: 100%;
+    width: 50%;
   }
   .keys {
     width: 400%;
@@ -6336,10 +6348,7 @@ color: rgb(150, 150, 150);
   }
   .rema {
     width: 100%;
-  }
-  .oya {
-    width: 60%;
-  }
+  } 
   .sound {
     margin-top: -360PX;
     width: 100%;

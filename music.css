@@ -33,7 +33,12 @@ body{
     @font-face {
       src: url(./assets/fonts/Noto_Sans_JP/NotoSansJP-Black.otf);
       font-family: "NotosansBlack";
-    }  
+    }   
+    .slowmus{
+       color: white;
+       font-size: 22px;
+       border-bottom: white solid 4px;
+    } 
     .closer{
       display: none;
     }
